@@ -1,0 +1,53 @@
+{
+  "priceBidIv": "Price of the best bid and Implied volatility (IV) of the bid. IV here represents the expected level of volatility in the underlying asset's price based on the bid price of the options contracts.",
+  "priceAskIv": "Price of the best ask Implied volatility (IV) of the offer. IV here represents the expected level of volatility in the underlying asset's price based on the offer price of the options contracts.",
+  "bidSize": "Size of the best bid.",
+  "askSize": "Size of the best ask.",
+  "delta": "Delta (Δ) is the estimated change in price of the option, given a $1 change in its underlying security.",
+  "theta": "Theta (Θ) is the rate of decline in the value of an option due to the passage of time. It can also be referred to as the time decay of an option.",
+  "position": "Your position size (contracts) for this instrument.",
+  "strike": "The price at which a put or call option can be exercised. It is also known as the exercise price.",
+  "openInterest": "Open interest (OI) equals the total number of bought or sold contracts.",
+
+  "asset": "The underlying asset.",
+  "side": "Side of the trade.",
+  "optionType": "Type of the options contract. Either \"Call\" or \"Put\".",
+  "expiry": "Expiration date of the options contract.",
+  "positionSize": "Size of the position, in number of contracts.",
+  "avgEntryPrice": "Average price that the options contract was bought/sold at.",
+  "markPrice": "Price used for PNL and margin calculations",
+  "fee": "Fee.",
+  "unrealizedPnl": "The unrealized profit/loss of this position.",
+  "realizedPnl": "The realized profit/loss of this trade.",
+  "roi": "Return on investment (ROI) of this position.",
+  "positionValue": "Total value of your position in USD",
+  "orderType": "Limit or market order.",
+  "tradeTimestamp": "The time and date that this trade was executed.",
+
+  "tradePrice": "The price that the option contract bought/sold at.",
+  "iv": "Implied volatility (IV) is the market's forecast of a likely movement in a security's price.",
+
+  "orderPrice": "The price of the limit order.",
+  "stopTriggerPrice": "Trigger Price is the price at which your stop or take profit order is activated and becomes a market or limit order. On Aevo, the Trigger Price is based on the Mark Price of the Perpetual Contract, not the last traded price.",
+  "stopLimitPrice": "Limit Price is the specific price at which your stop limit or take profit limit order will attempt to execute once the Trigger Price has been reached. The Trigger Price activates your order, and the Limit Price is the price at which your order aims to execute.",
+  "orderStatus": "Status of the order.",
+  "orderSize": "The size of the limit order, in number of contracts.",
+  "orderFillPercent": "The amount filled relative to the size of the order.",
+  "orderFillRemaining": "Remaining size of the order to be filled.",
+  "initialMargin": "Initial margin requirement for the order.",
+  "maintenanceMargin": "Maintenance margin requirement for the order.",
+  "orderTimestamp": "The time and date that this order was created.",
+  "priceTrigger": "The limit price and the trigger price (only for stop loss or take profit orders) of the order.",
+  
+  "market": "The asset, type, expiry, and strike price of the instrument.",
+  "sizeAndFill": "Size and of the order and the amount that has been filled, expressed in the number of contracts.",
+
+  "tradeType": "The trade type. Can be Trade, Settlement, or Liquidation.",
+
+  "settlementTime": "Time of settlement.",
+  "settlementPrice": "The settlement price",
+
+  "username": "Your username is auto-generated. Username editing will be enabled soon.",
+
+  "claimRewards": "Starting from next week, you will be able to claim your referral rewards."
+}

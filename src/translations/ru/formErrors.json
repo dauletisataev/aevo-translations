@@ -1,0 +1,39 @@
+{
+    "amount": {
+        "required": "Требуется указать сумму",
+        "moreThanZero": "Сумма должна быть больше нуля",
+        "lessThanEqualToBalance": "Недостаточно средств",
+        "lessThanEqualToTransferableBalance": "Недостаточно средств для перевода",
+        "lessThanEqualToExchangeBalance": "Недостаточно средств на бирже",
+        "insufficientAvailableBalance": "Недостаточно доступных средств",
+        "cannotBeLessThanSize": "Сумма не может быть меньше {{size}}",
+        "totalValueMustBeOverSize": "Общая стоимость заказа должна быть больше {{size}}"
+    },
+    "price": {
+        "required": "Требуется указать цену",
+        "moreThanZero": "Цена должна быть больше нуля",
+        "cannotBeLessThanSize": "Цена не может быть меньше {{size}}",
+        "priceAboveTriggerPrice": "Лимитная цена должна быть выше цены срабатывания",
+        "priceBelowTriggerPrice": "Лимитная цена должна быть ниже цены срабатывания"
+    },
+    "triggerPrice": {
+        "required": "Требуется указать цену срабатывания",
+        "moreThanZero": "Цена срабатывания должна быть больше нуля",
+        "cannotBeLessThanSize": "Цена срабатывания не может быть меньше {{size}}",
+        "priceAboveMarkPrice": "Цена срабатывания должна быть выше {{markPrice}}",
+        "priceBelowMarkPrice": "Цена срабатывания должна быть ниже {{markPrice}}"
+    },
+    "orderSize": {
+        "required": "Требуется указать размер заказа",
+        "insufficient_buying_power": "Недостаточно покупательной способности",
+        "reduce_size_invalid": "Размер заказа должен быть меньше или равен размеру вашей позиции в {{size}} контрактов для условных заказов \"Только сокращение\"",
+        "reduce_size_invalid_existing_order_long": "Размер заказа должен быть меньше или равен {{newOrderSize}} контрактам, так как у вас уже есть заказы на покупку {{existingOrderSize}} контрактов с размером позиции {{positionSize}} контрактов",
+        "reduce_size_invalid_existing_order_short": "Размер заказа должен быть меньше или равен {{newOrderSize}} контрактам, так как у вас уже есть заказы на продажу {{existingOrderSize}} контрактов с размером позиции {{positionSize}} контрактов",
+        "min_order_size": "Минимальный размер заказа {{size}}"
+    },
+    "address": {
+        "required": "Требуется адрес получателя",
+        "isAddress": "Недействительный адрес кошелька",
+        "transferToSelf": "Это ваш текущий адрес"
+    }
+}

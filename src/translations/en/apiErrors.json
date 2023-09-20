@@ -1,0 +1,56 @@
+{
+  "ACCOUNT_LIQUIDATION": "Account is under liquidation, please deposit more collateral",
+  "SIGNING_KEY_EXISTS": "Signing Key exists",
+  "API_KEY_EXISTS": "API Key exists",
+  "ACCOUNT_DOES_NOT_EXIST": "Account does not exist",
+  "ACCOUNT_INVALID_API_KEY": "Invalid API Key",
+  "ACCOUNT_INVALID_SIGNING_KEY": "Invalid Signing Key",
+
+  "RISK_INVALID_ORDER": "Error RISK_INVALID_ORDER",
+
+  "ORDERBOOK_NOT_FOUND": "Error ORDERBOOK_NOT_FOUND",
+  "ORDERBOOK_INVALID": "Error ORDERBOOK_INVALID",
+  "ORDERBOOK_EMPTY": "Insufficient liquidity, orderbook is empty",
+
+  "ORDER_NOT_FOUND": "Error ORDER_NOT_FOUND",
+  "ERROR_TIMED_OUT": "Timed out. Please try again",
+  "CANNOT_DECODE": "Error CANNOT_DECODE",
+  "INVALID_OUTPUT": "Error INVALID_OUTPUT",
+  "INVALID_TOKEN": "Error INVALID_TOKEN",
+  "UKNOWN_SIGNING_METHOD": "Error UKNOWN_SIGNING_METHOD",
+  "DEPOSIT_NO_ID": "Error DEPOSIT_NO_ID",
+  "DEPOSIT_NO_AMOUNT": "Error DEPOSIT_NO_AMOUNT",
+  "DEPOSIT_INVALID_AMOUNT": "Error DEPOSIT_INVALID_AMOUNT",
+  "ACCOUNT_NO_ID": "Error ACCOUNT_NO_ID",
+  "CANCEL_MISSING_PARAMS": "Error CANCEL_MISSING_PARAMS",
+  "SYMBOL_REQUIRED": "Error SYMBOL_REQUIRED",
+
+  "PRICES_RESOLUTION_REQUIRED": "Error PRICES_RESOLUTION_REQUIRED",
+  "PRICES_START_TIME_REQUIRED": "Error PRICES_START_TIME_REQUIRED",
+  "PRICES_END_TIME_REQUIRED": "Error PRICES_END_TIME_REQUIRED",
+  "PRICES_SYMBOL_REQUIRED": "Error PRICES_END_TIME_REQUIRED",
+
+  "ORDER_INVALID_AMOUNT": "Invalid order amount",
+  "ORDER_INVALID_SALT": "Invalid order salt",
+  "ORDER_NEGATIVE_FILL": "Negative order fill",
+  "ORDER_NEGATIVE_PRICE": "Order price cannot be negative",
+  "ORDER_INVALID_TIME": "Invalid order time",
+  "ORDER_INVALID_SIGNATURE": "Order submitted with invalid signature",
+  "ORDER_INVALID_SIGNING_KEY": "Order submitted with invalid signing key",
+  "IOC_ORDER_REJECTED": "Submit order failed",
+
+  "OPTIONS_NO_ASSET": "Error OPTIONS_NO_ASSET",
+  "OPTIONS_NO_EXPIRY": "Error OPTIONS_NO_EXPIRY",
+
+  "SIGNING_HASHWITHDRAW_FAILED": "Error SIGNING_HASHWITHDRAW_FAILED",
+  "WITHDRAW_INVALID_COLLATERAL": "Error WITHDRAW_INVALID_COLLATERAL",
+  "WITHDRAW_INVALID_AMOUNT": "Error WITHDRAW_INVALID_AMOUNT",
+  "WITHDRAW_INVALID_SALT": "Error WITHDRAW_INVALID_SALT",
+  "WITHDRAW_NOT_ENOUGH_BALANCE": "Not enough balance to withdraw",
+  "WITHDRAW_ACCOUNT_MATCH_FAILED": "Withdraw match failed",
+
+  "INVALID_PRICE_STEP_SIZE": "Invalid price step size",
+  "EXCEED_ORDER_PRICE_BAND": "Limit price is not within the price band",
+
+  "AMOUNT_LIMIT_LESS_THAN_ZERO": "Amount Limit must be more than 0"
+}

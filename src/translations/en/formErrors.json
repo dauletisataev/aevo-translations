@@ -1,0 +1,39 @@
+{
+    "amount": {
+        "required": "Amount is required",
+        "moreThanZero": "Amount must be more than zero",
+        "lessThanEqualToBalance": "Insufficient balance",
+        "lessThanEqualToTransferableBalance": "Insufficient tranferable balance",
+        "lessThanEqualToExchangeBalance": "Insufficient exchange balance",
+        "insufficientAvailableBalance": "Insufficient available balance",
+        "cannotBeLessThanSize": "Amount cannot be less than {{size}}",
+        "totalValueMustBeOverSize": "Total order value must be more than {{size}}"
+    },
+    "price": {
+        "required": "Price is required",
+        "moreThanZero": "Price must be more than zero",
+        "cannotBeLessThanSize": "Price cannot be less than {{size}}",
+        "priceAboveTriggerPrice": "Limit price must be above the trigger price",
+        "priceBelowTriggerPrice": "Limit price must be below the trigger price"
+    },
+    "triggerPrice": {
+        "required": "Trigger Price is required",
+        "moreThanZero": "Trigger Price must be more than zero",
+        "cannotBeLessThanSize": "Trigger Price cannot be less than {{size}}",
+        "priceAboveMarkPrice": "Trigger Price must be higher than {{markPrice}}",
+        "priceBelowMarkPrice": "Trigger Price must be lower than {{markPrice}}"
+    },
+    "orderSize": {
+        "required": "Order Size is required",
+        "insufficient_buying_power": "Insufficient buying power",
+        "reduce_size_invalid": "Order size must be smaller than or equal to your position size of {{size}} contracts for \"Reduce Only\" conditional orders",
+        "reduce_size_invalid_existing_order_long": "Order size must be smaller than or equal to {{newOrderSize}} contracts because you already have buy orders for {{existingOrderSize}} contracts with a position size of {{positionSize}} contracts",
+        "reduce_size_invalid_existing_order_short": "Order size must be smaller than or equal to {{newOrderSize}} contracts because you already have sell orders for {{existingOrderSize}} contracts with a position size of {{positionSize}} contracts",
+        "min_order_size": "Min order size is {{size}}"
+    },
+    "address": {
+        "required": "Recipient Address is required",
+        "isAddress": "Invalid Wallet Address",
+        "transferToSelf": "This is your current address"
+    }
+}

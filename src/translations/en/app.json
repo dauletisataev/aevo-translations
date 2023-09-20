@@ -1,0 +1,1599 @@
+{
+    "Header": {
+        "AccountModal": {
+            "enable_trading": "Enable Trading",
+            "continue_onboarding": "Continue Onboarding",
+            "deposit": "Deposit",
+            "liquidations_in_progress": "Liquidations In Progress",
+            "withdraw": "Withdraw",
+            "transfer": "Transfer",
+            "no_ongoing_transactions_desc": "You have no ongoing transactions",
+            "estimated_deposit_time": "Estimated Deposit Time",
+            "estimated_withdraw_time": "Estimated Withdraw Time",
+            "estimated_send_time": "Estimated Send Time",
+            "estimated_receive_time": "Estimated Receive Time",
+            "n_hours": "{{hours}} hour(s)",
+            "n_minutes": "{{minutes}} minute(s)",
+            "less_than_1_minute": "<1 minute",
+            "username": "Username",
+            "exchange_equity": "Exchange Equity",
+            "im_utilization": "IM Utilization",
+            "mm_utilization": "MM Utilization",
+            "live_pnl": "Live PnL",
+            "open_block_explorer": "Open Block Explorer",
+            "transfers_in_progress": "Transfers In Progress",
+            "user_settings": "User Settings",
+            "disconnect": "Disconnect"
+        },
+        "MobileMaintenanceInProgress": {
+            "maintenance_desc": "Scheduled systems maintenance in progress"
+        },
+        "Header": {
+            "trading": "Trading",
+            "test": "This is a {{test}}",
+            "portfolio": "Portfolio",
+            "rewards": "Rewards",
+            "historical_data": "Historical Data",
+            "community": "Community",
+            "about": "About",
+            "twitter": "Twitter",
+            "discord": "Discord",
+            "github": "Github",
+            "docs": "Docs",
+            "api_reference": "API Reference",
+            "blog": "Blog",
+            "media_kit": "Media Kit",
+            "otc": "OTC"
+        },
+        "AboutAevoModal": {
+            "about1": "Aevo is the world's first high-performance decentralized options exchange.",
+            "about2": "The exchange runs on a custom EVM roll-up that rolls up to Ethereum. Aevo operates an off-chain orderbook with on-chain settlements. This means that once orders are matched, trades get executed and settled with smart contracts.",
+            "about3": "Aevo is backed by",
+            "vc": {
+                "paradigm": "Paradigm",
+                "dragonfly_capital": "Dragonfly Capital",
+                "ethereal_ventures": "Ethereal Ventures",
+                "coinbase_ventures": "Coinbase Ventures",
+                "nascent": "Nascent",
+                "robot_ventures": "Robot Ventures",
+                "scalar_capital": "Scalar Capital",
+                "alliance": "Alliance"
+            }
+        }
+    },
+    "AccountBalance": {
+        "portfolio_overview": "Portfolio Overview",
+        "equity": "Equity",
+        "available_balance": "Available Balance",
+        "live_pnl": "Live PnL",
+        "realized_pnl": "Realized PnL",
+        "profit_factor": "Profit Factor",
+        "win_rate": "Win Rate"
+    },
+    "APISigningKeys": {
+        "created_at": "Created at {{time}}",
+        "online": "Online",
+        "offline": "Offline"
+    },
+    "ClaimRewardsModal": {
+        "rewards_claimed": "Rewards claimed",
+        "claim_rewards": "Claim rewards",
+        "total_unclaimed_rewards": "Total Unclaimed Rewards",
+        "referral_bonus": "Referral Bonus",
+        "referral_discount": "Referral Discount",
+        "slide_to_claim": "Slide to Claim",
+        "try_again": "Please try again"
+    },
+    "ConfirmationModal": {
+        "CancelAllOrdersModal": {
+            "cancel_success": "Cancel All Orders Success",
+            "cancel_failed": "Cancel All Orders Failed",
+            "place_order_again": "Please place your order again",
+            "cancel_all_orders_title": "Cancel All Orders?",
+            "cancel_all_orders_text": "Are you sure you want to cancel all orders?",
+            "confirm": "Confirm"
+        },
+        "ClosePositionModal": {
+            "position_closed_header": "Position Closed",
+            "position_closed_subheader": "Your position was successfully closed",
+            "insufficient_liquidity_error": "Insufficient market liquidity to close position. Please try closing your position using a limit order.",
+            "partial_liquidity_warning": "Your position can only be partially closed due to insufficient liquidity",
+            "contracts": "Contracts",
+            "avg_entry_price": "Avg. Entry Price",
+            "unrealized_pnl": "Unrealized PnL",
+            "roi": "ROI",
+            "maintenance_margin": "Maintenance Margin",
+            "delta": "Delta",
+            "theta": "Theta",
+            "close_long_position": "Close Long Position",
+            "close_short_position": "Close Short Position",
+            "long": "Long",
+            "short": "Short",
+            "close_position": "Close Position",
+            "close_position_error": "Error closing position"
+        },
+        "EditOrderModal": {
+            "order_edited_header": "Order Edited",
+            "order_edited_subheader": "Your order is successfully updated",
+            "contracts_filled_error": "{{orderAmount}} contracts have already been filled",
+            "total": "Total",
+            "amount_filled": "Amount Filled",
+            "premiums_earned": "Premiums Earned",
+            "margin_required": "Margin Required",
+            "buying_power": "Buying Power",
+            "position_leverage": "Position Leverage",
+            "liquidation_price": "Liquidation Price",
+            "available_balance": "Available Balance",
+            "position": "Position",
+            "long": "Long",
+            "short": "Short",
+            "update_order": "Update Order",
+            "edit_order_error": "Unable to edit order",
+            "buy":"Buy",
+            "sell":"Sell",
+            "call":"Call",
+            "put":"Put",
+            "limit":"Limit",
+            "market":"Market"
+        },
+        "RemoveOrderModal": {
+            "order_edited_header": "Order Removed",
+            "order_edited_subheader": "Your order was successfully removed",
+            "bid_price": "Bid Price",
+            "contracts": "Contracts",
+            "total": "Total",
+            "premium_earned": "Premium Earned",
+            "margin_required": "Margin Required",
+            "remove_bid": "Remove Bid",
+            "remove_offer": "Remove Offer",
+            "buy": "Buy",
+            "sell": "Sell",
+            "position": "Position",
+            "long": "Long",
+            "short": "Short",
+            "remove_order_error": "Unable to remove order"
+        }
+    },
+    "ConnectWalletModal": {
+        "Deposit": {
+            "insufficient_balance": "Insufficient ETH balance",
+            "ready_to_deposit": "Your fund are now ready to deposit",
+            "how_deposits_work_header": "How Deposits Work",
+            "how_deposits_work_subheader": "You can deposit {{asset}} from Ethereum Mainnet and Optimism, or USDC.e from Arbitrum, and your funds will be credited to your layer-2 Aevo account within minutes. Once your account is funded you can start trading immediately.",
+            "deposit_from": "Deposit From",
+            "amount": "Amount",
+            "max": "Max",
+            "wallet_balance": "Wallet Balance",
+            "exchange_balance": "Exchange Balance",
+            "estimated_deposit_time": "Estimated Deposit Time",
+            "deposit_fee": "Deposit Fee"
+        },
+        "ConnectWallet": {
+            "open_your_wallet_to_connect": "Open your wallet to connect",
+            "connected": "Connected"
+        },
+        "EnableTrading": {
+            "enable_trading_desc": "To enable trading, you need to be on the {{ chain }} and sign a message that links your wallet with the randomly generated key produced by your browser. This will ensure that you enjoy a fast, reliable and secure trading experience across multiple devices.",
+            "registering_with_refcode": "You are registering with the referral code of",
+            "remember_me": "Remember Me",
+            "remember_me_desc": "Selecting \"remember me\" will store your randomly generated trading key in the browser so that you don't have to generate a new trading key whenever you start a new browsing session. Please note that your trading key will expire 1 week after being generated as a safety measure."
+        },
+        "ConnectWalletModal": {
+            "initiating_deposit": "Initiating Deposit",
+            "eta": "Estimated Time - {{time}}",
+            "trading_fee_discount": "Trading Fee Discount Unlocked",
+            "trading_fee_discount_desc": "Your 10% discount on all trading fees for 6 months has been unlocked using the code",
+            "no_bridge_capacity": "There is no bridge capacity to support your deposit from {{currentChain}}. Please deposit from ${{otherChains}}.",
+            "insufficient_bridge_capacity": "There is insufficient bridge capacity to support your deposit from {{chain}}.",
+            "reduce_deposit_size": " Please reduce your deposit size to {{size}} or deposit from {{otherChains}}.",
+            "switch_to_chain": "Switch to {{chain}}",
+            "deposit_initiated": "Deposit Initiated",
+            "deposit_initiated_desc": "{{amount}} will be credited in ~{{time}}",
+            "welcome_to_aevo": "Welcome to Aevo",
+            "select_your_wallet": "Select Your Wallet",
+            "switch_network": "Switch Network",
+            "enable_trading": "Enable Trading",
+            "loading": "Loading...",
+            "signing": "Signing...",
+            "connecting": "Connecting...",
+            "continue": "Continue",
+            "sign_message": "Sign Message",
+            "deposit": "Deposit",
+            "depositing": "Depositing",
+            "deposit_cancelled": "Deposit cancelled",
+            "deposit_failed": "Deposit failed",
+            "deposit_asset": "Deposit {{asset}}...",
+            "permit": "Permit {{asset}}...",
+            "approve": "Approve {{asset}}...",
+            "permitting": "Permitting {{asset}}...",
+            "approving": "Approving {{asset}}...",
+            "wallets": "Wallets",
+            "wallets_overlay_desc": "A Wallet is a digital tool that allows you to interact with your Ethereum account, letting you check your balance, send transactions, and connect to applications like Aevo.",
+            "learn_more": "Learn more",
+            "or": "or"
+        },
+        "Onboard": {
+            "ref_onboarding_desc_1": "You've been invited to Aevo with the referral code",
+            "ref_onboarding_desc_2": "Connect your wallet and unlock a 10% discount on all trading fees for 6 months.",
+            "onboarding_desc": "Follow the next steps to connect your wallet, deposit funds and start trading options."
+        },
+        "SwitchNetwork": {
+            "unsupported_network_desc": "Looks like you're connected to an unsupported network. Please switch to a supported network.",
+            "select_supported_network": "Select a supported network"
+        }
+    },
+    "DepositWithdrawModal": {
+        "TransferModal": {
+            "ConfirmAddressModal": {
+                "confirmation_desc": "By continuing you are confirming that you have access to the following receipient address on Aevo and acknowledge that this transaction is irreversible:",
+                "recipient_address": "Recipient's Aevo Address",
+                "next": "Next"
+            },
+            "ConfirmTransferModal": {
+                "you_sent": "You sent",
+                "failed_to_send": "Failed to send",
+                "you_are_sending": "You are sending",
+                "transfer": "Transfer",
+                "sign_message": "Sign message in your wallet",
+                "signed": "Signed",
+                "close": "Close",
+                "try_again": "Try again",
+                "to": "To"
+            },
+            "TransferModal": {
+                "transfer_asset": "Transfer {{asset}}",
+                "transfer_completed": "Transfer Completed",
+                "transfer_failed": "Transfer Failed",
+                "confirm_transfer": "Confirm Transfer",
+                "address_confirmation": "Address Confirmation"
+            },
+            "InitialStateModal": {
+                "deposit_failed": "Deposit failed",
+                "switch_to": "Switch to {{chain}}",
+                "transfers": "Transfers",
+                "transfers_desc": "Transfers are instantaneous and free, taking place directly on our custom Layer 2 and without interaction with Ethereum Mainnet.",
+                "recipient_address": "Recipient's Aevo Address",
+                "amount": "Amount",
+                "max": "Max",
+                "next": "Next",
+                "exchange_balance": "Exchange Balance",
+                "transferable_balance": "Transferable Balance",
+                "recipient_address_access_desc": "IMPORTANT: Make sure you have access to the recipient address on Aevo."
+            }
+        },
+        "DepositModal": {
+            "initiating_deposit": "Initiating Deposit",
+            "eta": "Estimated Time - {{time}}",
+            "switch_to": "Switch to {{chain}}",
+            "permit": "Permit",
+            "approve": "Approve",
+            "deposit": "Deposit",
+            "deposits": "Deposits",
+            "deposit_from": "Deposit From",
+            "deposit_asset": "Deposit {{asset}}",
+            "insufficient_eth_balance": "Insufficient ETH balance",
+            "ready_to_deposit": "Your fund are now ready to deposit",
+            "approval_failed": "Approval failed",
+            "no_bridge_capacity": "There is no bridge capacity to support your deposit from {{currentChain}}. Please deposit from ${{otherChains}}.",
+            "insufficient_bridge_capacity": "There is insufficient bridge capacity to support your deposit from {{chain}}.",
+            "reduce_deposit_size": " Please reduce your deposit size to {{size}} or deposit from {{otherChains}}.",
+            "deposit_initiated": "Deposit Initiated",
+            "deposit_cancelled": "Deposit cancelled",
+            "deposit_failed": "Deposit failed",
+            "how_deposits_work_subheader": "You can deposit {{asset}} from Ethereum Mainnet and Optimism, or USDC.e from Arbitrum, and your funds will be credited to your layer-2 Aevo account within minutes. Once your account is funded you can start trading immediately.",
+            "amount": "Amount",
+            "max": "Max",
+            "or": "or",
+            "wallet_balance": "Wallet Balance",
+            "estimated_deposit_time": "Estimated Deposit Time",
+            "deposit_fee": "Deposit Fee",
+            "deposit_initiated_desc": "{{amount}} will be credited in ~{{time}}"
+        },
+        "WithdrawModal": {
+            "switch_to": "Switch to {{chain}}",
+            "withdrawals": "Withdrawals",
+            "withdraw": "Withdraw",
+            "withdrawal_cancelled": "Withdrawal cancelled",
+            "withdrawal_failed": "Withdrawal failed",
+            "withdrawal_pending": "Withdrawal Pending",
+            "withdrawal_pending_desc": "Withdrawal of {{amount}} will be processed in ~{{time}}",
+            "no_bridge_capacity": "There is no bridge capacity to support your withdrawal to {{currentChain}}. Please withdraw to ${{otherChains}}.",
+            "insufficient_bridge_capacity": "There is insufficient bridge capacity to support your withdrawal to {{chain}}.",
+            "reduce_withdrawal_size": " Please reduce your withdrawal size to {{size}} or withdraw to {{otherChains}}.",
+            "withdrawal_availability_desc_1": "You can withdraw {{asset}} from Aevo to Ethereum Mainnet and Optimism, or USDC.e from Arbitrum.",
+            "withdrawal_availability_desc_2": "Withdrawals usually take up to 2 hours, due to the bridging between Aevo L2 to Ethereum L1.",
+            "eth_to_weth_desc": " ETH deposits are withdrawn as WETH tokens (Wrapped ETH). ",
+            "withdraw_to": "Withdraw To",
+            "amount": "Amount",
+            "max": "Max",
+            "exchange_balance": "Exchange Balance",
+            "credit_balance": "Credit Balance",
+            "withdrawable_balance": "Withdrawable Balance",
+            "total_exchange_equity": "Total Exchange Equity",
+            "eta": "Estimated Withdraw Time"
+        }
+    },
+    "DepthChart": {
+        "price": "Price",
+        "buy": "Buy",
+        "sell": "Sell",
+        "size": "Size",
+        "total_cost": "Total Cost",
+        "price_impact": "Price Impact",
+        "mid_market_price": "Mid-Market Price",
+        "no_data": "No data"
+    },
+    "EmailVerificationModal": {
+        "title": "Email Verification Underway",
+        "verification_desc": "Please check your inbox for an email with the subject 'Aevo - Verify Your Email' and click the 'Verify Email' button within the email to complete the process. Once verified your notifications will be enabled.",
+        "got_it": "Got It"
+    },
+    "ExposureScheduleChart": {
+        "long": "Long",
+        "short": "Short"
+    },
+    "FillsToastAlerter": {
+        "fill_amount": "Fill Amount",
+        "limit_price": "Limit Price",
+        "total_filled": "Total Filled"
+    },
+    "Footer": {
+        "help_and_support": "Help and Support",
+        "aevo_block": "Aevo Block"
+    },
+    "FundingHistory": {
+        "market": "Market",
+        "funding_rate": "Funding Rate",
+        "mark_price": "Mark Price",
+        "time": "Time",
+        "no_funding_history": "No funding history"
+    },
+    "GeoblockModal": {
+        "title": "Access Denied",
+        "geoblock_desc": "Aevo is not available to people or companies who are residents of the United States of America or a restricted country / territory as defined by our",
+        "terms_of_service": "terms of service"
+    },
+    "InstrumentTradeHistory": {
+        "price": "Price",
+        "time": "Time",
+        "size": "Size"
+    },
+    "IntercomSetupModal": {
+        "EnableTrading": {
+            "enable_trading_desc_1": "Trading must be enabled to save important details in your chat history.",
+            "enable_trading_desc_2": "To enable trading, you need to be on the {{chain}} and sign a message that links your wallet with the randomly generated key produced by your browser.",
+            "remember_me": "Remember Me",
+            "remember_me_desc": "Selecting \"remember me\" will store your randomly generated trading key in the browser so that you don't have to generate a new trading key whenever you start a new browsing session. Please note that your trading key will expire 1 week after being generated as a safety measure."
+        },
+        "IntercomSetupModal": {
+            "trading_fee_header": "Trading Fee Discount Unlocked",
+            "trading_fee_desc": "Your 10% discount on all trading fees for 6 months has been unlocked using the code",
+            "invalid_email_address": "Invalid Email Address",
+            "welcome_to_support": "Welcome to Aevo Chat Support",
+            "select_wallet": "Select Your Wallet",
+            "enable_trading": "Enable Trading",
+            "enter_email": "Enter Email Address",
+            "log_in_label": "Log In (Recommended)",
+            "visitor_label": "Continue as Visitor",
+            "connecting": "Connecting...",
+            "continue": "Continue",
+            "switch_network": "Switch Network",
+            "signing": "Signing...",
+            "sign_message": "Sign Message",
+            "setting": "Setting...",
+            "set_email": "Set Email Address",
+            "wallets": "Wallets",
+            "wallets_overlay_desc": "A Wallet is a digital tool that allows you to interact with your Ethereum account, letting you check your balance, send transactions, and connect to applications like Aevo.",
+            "learn_more": "Learn more"
+        },
+        "Onboard": {
+            "onboarding_desc": "Log in to save important details in your chat history. This will help us serve you better and enhance your chat experience."
+        },
+        "SetEmailAddress": {
+            "set_email_desc_1": "Enter Your Email Address to save your chat history.",
+            "set_email_desc_2": "You will also receive an optional verification email. Once verified you would receive other notifications including referrals, liquidations, and maintenance margin warnings.",
+            "email_address": "Email Address",
+            "your_email_address": "Your Email Address"
+        }
+    },
+    "InvalidReferralModal": {
+        "invalid_ref_code": "Invalid Referral Code",
+        "referral_inapplicable": "Referal Not Applicable",
+        "invalid_ref_code_desc": "The referral link you used is not valid. Please check with the person who referred you for a valid link.",
+        "own_ref_code_desc": "You cannot use your own referral code!",
+        "welcome_back_desc_1": "Welcome back! It seems",
+        "welcome_back_desc_2": "you're already trading with us",
+        "welcome_back_desc_3": "so you won't be eligible for new user bonuses from the referral link. But don't worry, you can still",
+        "welcome_back_desc_4": "earn rewards by sharing your own referral link",
+        "welcome_back_desc_5": "with traders who aren't yet trading with us. Start sharing and earn more today!",
+        "continue": "Continue"
+    },
+    "LiquidationModal": {
+        "title": "Liquidations In Progress",
+        "important": "IMPORTANT",
+        "liquidation_desc_1": "Your account is now in liquidation mode as your maintenance margin utilization has exceeded 100%. The liquidation process works as follows",
+        "liquidation_desc_2": "Once the liquidation process has completed, your account will be brought out of liquidation mode and your account will have access to full functionality.",
+        "liquidation_bullet_1": "Your positions will be liquidated in order to bring your maintenance margin back to a healthy level",
+        "liquidation_bullet_2": "Your outstanding orders will be cancelled and all trading will be disabled",
+        "liquidation_bullet_3": "Withdrawals will be disabled",
+        "liquidation_bullet_4_1": "You will be charged a",
+        "liquidation_bullet_4_2": "liquidation fee of 0.50%",
+        "liquidation_bullet_4_3": "of your position's notional amount"
+    },
+    "MarketData": {
+        "24h_volume": "24H Volume",
+        "total_oi": "Total OI"
+    },
+    "MarketSelectionDropdown": {
+        "prelaunch": "Pre-Launch",
+        "options": "Options",
+        "perpetuals": "Perpetuals",
+        "search_markets": "Search markets",
+        "all_markets": "All Markets",
+        "no_search_results": "No search results"
+    },
+    "MarketSelectionCell": {
+        "oi": "OI"
+    },
+    "MMPTriggeredModal": {
+        "title": "MMP Triggered",
+        "mmp_triggered_desc_1": "Your account has been frozen because",
+        "mmp_triggered_desc_2": "limits were breached",
+        "go_to_settings": "Go to MMP Settings"
+    },
+    "MobileFooter": {
+        "trading": "Trading",
+        "portfolio": "Portfolio"
+    },
+    "OFACModal": {
+        "title": "Access Restriction",
+        "ofac_desc_1": "By continuing, you are confirming the following",
+        "ofac_desc_2": "You are not a resident of Belarus, Cuba, Democratic People's Republic of Korea (DPRK), Democratic Republic of Congo, Iran, Iraq, Lebanon, Libya, Mali, Myanmar, Nicaragua, Somalia, South Sudan, Sudan, Syria, or Ukraine.",
+        "ofac_desc_3": "You will not use any software or networking techniques, including use of a Virtual Private Network (VPN) to modify your internet protocol address or otherwise circumvent or attempt to circumvent this prohibition.",
+        "continue": "Continue"
+    },
+    "OptionFilter": {
+        "call_option": "Call Option",
+        "put_option": "Put Option",
+        "select_strike_price_desc": "Please select a strike price",
+        "put": "put",
+        "call": "call",
+        "type": "Type",
+        "expiry": "Expiry",
+        "strike": "Strike",
+        "close": "Close",
+        "option_type": "Option Type",
+        "strike_price": "Strike Price"
+    },
+    "OptionsChain": {
+        "CurrentSpotSection": {
+            "current_spot": "Current {{asset}} Spot"
+        },
+        "MobileOptionsChain": {
+            "MobileOptionsChain": {
+                "buy": "Buy",
+                "sell": "Sell",
+                "calls": "Calls",
+                "puts": "Puts"
+            },
+            "OptionRow": {
+                "iv": "IV",
+                "size": "Size",
+                "delta": "Delta",
+                "price": "Price"
+            }
+        },
+        "OptionsTable": {
+            "headers": {
+                "bid_size": "Size (Bid)",
+                "bid_iv": "Bid / IV",
+                "mark_price": "Mark Price",
+                "ask_iv": "Ask / IV",
+                "ask_size": "Size (Ask)",
+                "delta": "Delta",
+                "oi": "OI",
+                "position": "Position"
+            },
+            "OptionsTable": {
+                "calls": "Calls",
+                "puts": "Puts",
+                "strike": "Strike",
+                "days": "Days",
+                "day": "Day"
+            }
+        },
+        "OptionsChain": {
+            "buy": "Buy",
+            "sell": "Sell",
+            "calls": "Calls",
+            "puts": "Puts"
+        }
+    },
+    "OptionsHistory": {
+        "all_trades": "All Trades",
+        "calls": "Calls",
+        "puts": "Puts",
+        "last_250_trades": "Last 250 Trades",
+        "last_500_trades": "Last 500 Trades",
+        "last_1000_trades": "Last 1000 Trades",
+        "size": "Size",
+        "contract": "Contract",
+        "expiry": "Expiry",
+        "strike": "Strike",
+        "price": "Price",
+        "iv": "IV",
+        "time_and_date": "Time And Date",
+        "no_history": "No market trade history"
+    },
+    "Orders": {
+        "iv": "IV",
+        "market": "Market",
+        "side": "Side",
+        "type": "Type",
+        "size_fill": "Size / Fill",
+        "price_trigger": "Price / Trigger",
+        "initial_margin": "Initial Margin",
+        "time": "Time",
+        "buy": "Buy",
+        "sell": "Sell",
+        "limit": "Limit"
+    },
+    "Perps": {
+        "MobilePerpsSection": {
+            "MobilePerpsSection": {
+                "price": "Price",
+                "depth": "Depth",
+                "orderbook": "Orderbook",
+                "history": "History",
+                "connect_wallet": "Connect Wallet",
+                "enable_trading": "Enable Trading",
+                "continue_onboarding": "Continue Onboarding",
+                "trade": "Trade"
+            }
+        },
+        "PerpsOrderbookAndChart": {
+            "price_chart": "Price Chart",
+            "depth_chart": "Depth Chart"
+        },
+        "TradeOrderbookSection": {
+            "TradeOrderbookSection": {
+                "usd": "USD",
+                "orderbook": "Orderbook",
+                "trade_history": "Trade History"
+            }
+        }
+    },
+    "PnLCardModal": {
+        "position": "Position",
+        "long": "Long",
+        "short": "Short",
+        "entry_price": "Entry Price",
+        "current_price": "Current Price",
+        "exit_price": "Exit Price",
+        "share_preview": "Share Preview"
+    },
+    "PortfolioSettings": {
+        "Collateral": {
+            "asset": "Asset",
+            "balance": "Balance",
+            "composition": "Composition",
+            "value": "Value",
+            "actions": "Actions",
+            "deposit": "Deposit",
+            "withdraw": "Withdraw",
+            "transfer": "Transfer",
+            "collateral": "Collateral"
+        },
+        "FundingHistoryFilter": {
+            "all_funding": "All Funding",
+            "received": "Received",
+            "paid": "Paid"
+        },
+        "Greeks": {
+            "greeks": "Greeks",
+            "delta": "Delta",
+            "vega": "Vega",
+            "gamma": "Gamma",
+            "rho": "Rho",
+            "theta": "Theta"
+        },
+        "MarginHealth": {
+            "margin_health": "Margin Health",
+            "im_utilization": "IM Utilization",
+            "mm_utilization": "MM Utilization",
+            "im_used": "Initial Margin Used",
+            "mm_used": "Maintenance Margin Used",
+            "equity_balance": "Equity Balance",
+            "available_balance": "Available Balance"
+        },
+        "OptionsExposureSchedule": {
+            "OptionsExposureSchedule": {
+                "title": "Options Exposure Schedule"
+            },
+            "Tooltip": {
+                "delta": "Delta"
+            }
+        },
+        "PortfolioFundingHistory": {
+            "time": "Time",
+            "market": "Market",
+            "side": "Side",
+            "long": "Long",
+            "short": "Short",
+            "contracts": "Contracts",
+            "funding_rate": "Funding Rate",
+            "payment": "Payment",
+            "mark_price": "Mark Price",
+            "no_history": "No funding history",
+            "close_short": "Close Short",
+            "close_long": "Close Long",
+            "open_long": "Open Long",
+            "open_short": "Open Short"
+        },
+        "PortfolioMarketFilter": {
+            "option": "Option",
+            "perpetual": "Perpetual Futures",
+            "all": "All"
+        },
+        "PortfolioOrderHistory": {
+            "order_status": "Order Status",
+            "time": "Time",
+            "order_type": "Order Type",
+            "market": "Market",
+            "side": "Side",
+            "size_fill": "Size / Fill",
+            "price": "Price",
+            "bid": "Bid",
+            "offer": "Offer",
+            "limit": "Limit",
+            "no_history": "No order history",
+            "filled": "Filled",
+            "partial": "Partial",
+            "opened": "Opened",
+            "cancelled": "Cancelled",
+            "expired": "Expired",
+            "rejected": "Rejected"
+        },
+        "PortfolioOrders": {
+            "time": "Time",
+            "size_fill": "Size / Fill",
+            "price_trigger": "Price / Trigger",
+            "market": "Market",
+            "side": "Side",
+            "order_type": "Order Type",
+            "iv": "IV",
+            "initial_margin": "Initial Margin",
+            "no_orders": "No orders",
+            "buy": "Buy",
+            "sell": "Sell",
+            "limit": "Limit"
+        },
+        "PortfolioPositions": {
+            "roi": "ROI",
+            "mark_price": "Mark Price",
+            "avg_entry_price": "Avg. Entry Price",
+            "maintenance_margin": "Maintenance Margin",
+            "pnl": "PnL",
+            "delta": "Delta",
+            "theta": "Theta",
+            "market": "Market",
+            "side": "Side",
+            "contracts": "Contracts",
+            "summary": "Summary",
+            "no_positions": "No positions",
+            "long": "Long",
+            "short": "Short"
+        },
+        "PortfolioSettlementHistory": {
+            "asset": "Asset",
+            "expiry": "Expiry",
+            "settlement_price": "Settlement Price",
+            "settlement_time": "Settlement Time",
+            "no_history": "No settlement history"
+        },
+        "PortfolioTradeHistory": {
+            "iv": "IV",
+            "fees": "Fees",
+            "time": "Time",
+            "order_type": "Order Type",
+            "size": "Size",
+            "market": "Market",
+            "side": "Side",
+            "type": "Type",
+            "price": "Price",
+            "pnl": "PnL",
+            "no_history": "No trade history",
+            "close_short": "Close Short",
+            "close_long": "Close Long",
+            "open_long": "Open Long",
+            "open_short": "Open Short",
+            "limit": "Limit",
+            "trade": "Trade",
+            "liquidation": "Liquidation",
+            "settlement": "Settlement",
+            "funding": "Funding"
+        },
+        "PortfolioTransfersFilter": {
+            "all_activity": "All activity",
+            "deposits": "Deposits",
+            "withdrawals": "Withdrawals",
+            "rewards": "Rewards",
+            "transfers": "Transfers"
+        },
+        "Table": {
+            "DownloadCSVButton": {
+                "download_desc": "Download as CSV"
+            },
+            "EmptyContent": {
+                "connect_wallet_desc": "Please connect your wallet"
+            },
+            "MarketCell": {
+                "settlement_in_progress": "Settlement in progress",
+                "put": "Put",
+                "call": "Call"
+            }
+        }
+    },
+    "Positions": {
+        "iv": "IV",
+        "delta": "Delta",
+        "theta": "Theta",
+        "market": "Market",
+        "side": "Side",
+        "contracts": "Contracts",
+        "avg_entry_price": "Avg. Entry Price",
+        "position_value": "Position Value",
+        "mark_price": "Mark Price",
+        "pnl": "PnL",
+        "maintenance_margin": "Maintenance Margin",
+        "summary": "Summary",
+        "long": "Long",
+        "short": "Short"
+    },
+    "ProfitChart": {
+        "asset_spot": "{{asset}} Spot",
+        "strike": "Strike"
+    },
+    "SelectMultichainNetwork": {
+        "ethereum": "Ethereum",
+        "optimism": "Optimism",
+        "arbitrum": "Arbitrum",
+        "unknown_network": "Unknown Network"
+    },
+    "SettingsModal": {
+        "your_position": "Your Position",
+        "bid_iv": "Bid IV",
+        "ask_iv": "Ask IV",
+        "delta": "Delta",
+        "mark_price": "Mark Price",
+        "order_placed": "Order Placed",
+        "order_filled": "Order Filled",
+        "order_cancelled": "Order Cancelled",
+        "errors": "Errors",
+        "options_chain_desc": "Customize the columns displayed in the options chain",
+        "sfx_desc": "Customise sound effects for specific events",
+        "language_desc":"Choose a language",
+        "trade_settings": "Trade Settings",
+        "sound_effects": "Sound Effects",
+        "options_chain": "Options Chain",
+        "sfx": "SFX",
+        "language": "Language"
+    },
+    "pages": {
+        "APIKeysPage": {
+            "create": "Create",
+            "create_api_key": "Create API Key",
+            "created_api_key": "Created API Key",
+            "create_api_key_desc": "Please enter a name for your new API Key",
+            "enable_trading": "Enable Trading",
+            "connect_wallet": "Connect Wallet",
+            "copied_secret_desc": "Copied API Secret to clipboard",
+            "copied_key_desc": "Copied API Key to clipboard",
+            "remove_api_key": "Remove API Key",
+            "removed_api_key": "Removed API Key",
+            "error": "Error",
+            "remove": "Remove",
+            "remove_key_desc": "Are you sure you want to remove this API Key?",
+            "api_keys": "API Keys",
+            "docs_desc_1": "Aevo's REST and Websocket APIs are for advanced users and enable programmatic trading. Click",
+            "docs_desc_2": "here",
+            "docs_desc_3": " to view Aevo's API docs.",
+            "name": "Name",
+            "api_key": "API Key",
+            "api_secret": "API Secret"
+        },
+        "EmailPage": {
+            "email_preference_updated": "Email preference updated",
+            "email_preference_updated_desc": "Email preference successfully updated",
+            "email_verified": "Email Address Verified",
+            "email_verified_desc": "Your email address has been verified and you can now receive email notifications for enabled events",
+            "emails_unsubscribed": "Emails Unsubscribed",
+            "emails_unsubscribed_desc": "You will no longer receive any email notifications",
+            "email_verification": "Email Verification",
+            "unsubscribe_emails": "Unsubscribe Emails",
+            "invalid_email": "Invalid Email Address",
+            "verify_email": "Verify Email",
+            "update_email": "Update Email",
+            "resend_verification": "Resend Verification",
+            "enable_trading": "Enable Trading",
+            "connect_wallet": "Connect Wallet",
+            "check_email_desc": "Please check your inbox for an email from Aevo (do-not-reply@aevo.xyz) with subject “Aevo - Verify Your Email”",
+            "email_notifications": "Email Notifications",
+            "email_notifications_desc": "Enable email notifications for account liquidations, maintenance margin warnings and successful referrals on Aevo.",
+            "your_email_address": "Your Email Address",
+            "email_address": "Email Address",
+            "liquidations": "Liquidations",
+            "liquidations_desc": "Receive an email alert when your account enters liquidation mode.",
+            "mm_utilization": "MM Utilization",
+            "mm_utilization_desc": "Get notified when your maintenance margin exceeds 80%.",
+            "referrals": "Referrals",
+            "referrals_desc": "Stay informed when a new trader joins Aevo using your referral code."
+        },
+        "FundingHistoryTab": {
+            "market": "Market",
+            "funding_rate": "Funding Rate",
+            "date_time": "Date Time",
+            "all_perps": "All Perps",
+            "aevo_public_funding_history": "Aevo Public Funding History"
+        },
+        "HistoricalPage": {
+            "settlement_history": "Settlement History",
+            "funding_history": "Funding History"
+        },
+        "MMPPage": {
+            "mmp_enabled": "MMP Enabled",
+            "mmp_disabled": "MMP Disabled",
+            "mmp_enabled_desc": "MMP successfully enabled",
+            "mmp_disabled_desc": "MMP successfully disabled",
+            "missing_param_desc": "All parameter fields must be complete",
+            "mmp": "Market Maker Protection",
+            "mmp_desc_1": "An automated method to help market makers manage risk via a customisable set of parameters. Click",
+            "mmp_desc_2": "here",
+            "mmp_desc_3": " to view Aevo's API docs.",
+            "frozen_desc": "Your account has been frozen because",
+            "enable_mmp": "Enable MMP",
+            "enable_mmp_desc": "To unfreeze your account you need to re-enable MMP and save your updated parameters.",
+            "interval": "Interval",
+            "interval_desc_1": "Interval in",
+            "interval_desc_2": "seconds",
+            "interval_desc_3": "applied to measure Amount Limit and Delta Limit parameters",
+            "frozen": "Frozen",
+            "frozen_desc_1": "Duration in",
+            "frozen_desc_2": "seconds",
+            "frozen_desc_3": "which the account will be frozen (if set to 0, manual reset is required)",
+            "unfrozen_desc": "Your account will be unfrozen in",
+            "amount_limit": "Amount Limit",
+            "amount_limit_desc_1": "The maximum number of",
+            "amount_limit_desc_2": "contracts",
+            "amount_limit_desc_3": "that can be filled over the course of an interval before the account is frozen",
+            "delta_limit": "Delta Limit",
+            "delta_limit_desc_1": "The maximum absolute change in",
+            "delta_limit_desc_2": "delta",
+            "delta_limit_desc_3": "over the course of an interval before the account is frozen",
+            "saved": "Saved",
+            "save_and_reenable_mmp": "Save and Re-Enable MMP",
+            "save_changes": "Save Changes"
+        },
+        "OrderHistoryTab": {
+            "market": "Market",
+            "side": "Side",
+            "type": "Type",
+            "size": "Size",
+            "price": "Price",
+            "order_type": "Order Type",
+            "date_time": "Date Time",
+            "order_history": "Order History",
+            "aevo_order_history": "Aevo Order History"
+        },
+        "OrdersTab": {
+            "open_orders": "Open Orders",
+            "cancel_all_orders": "Cancel All Orders"
+        },
+        "PortfolioFundingHistoryTab": {
+            "market": "Market",
+            "side": "Side",
+            "contracts": "Contracts",
+            "funding_rate": "Funding Rate",
+            "payment": "Payment",
+            "mark_price": "Mark Price",
+            "date_time": "Date Time",
+            "funding_history": "Funding History",
+            "aevo_portfolio_funding_history": "Aevo Portfolio Funding History"
+        },
+        "PortfolioMarginPage": {
+            "current_margin_health": "Current Margin Health",
+            "simulated_margin_health": "Simulated Margin Health",
+            "portfolio_margin": "Portfolio Margin",
+            "standard_margin": "Standard Margin",
+            "im_utilization": "IM Utilization",
+            "mm_utilization": "MM Utilization",
+            "equity": "Equity",
+            "margin_balance": "Margin Balance",
+            "switch_to_standard": "Switch to Standard Margin",
+            "switch_to_portfolio": "Switch to Portfolio Margin",
+            "switch_to_portfolio_margin_desc_1": "If you proceed, your account will be switched to Portfolio Margin and new margin requirements will apply. Please ensure that you understand the risks and are capable of managing your portfolio under these conditions.",
+            "switch_to_portfolio_margin_desc_2": "We recommend you to read the ",
+            "switch_to_portfolio_margin_desc_3": "Aevo Portfolio Margin Guide",
+            "switch_to_portfolio_margin_desc_4": "for more information.",
+            "switch_to_standard_margin_desc": "If you proceed, your account will be switched to Standard Margin and the default margin requirements will apply.",
+            "confirm": "Confirm",
+            "portfolio_margin_desc": "Portfolio Margin offers more efficient use of capital by providing lower margin requirements for traders who maintain a balanced portfolio of hedged positions. It is designed for experienced traders who seek increased leverage. To enable Portfolio Margin, you must have a minimum account equity of {{equity}}.",
+            "disable_portfolio_margin": "Disable Portfolio Margin",
+            "enable_portfolio_margin": "Enable Portfolio Margin",
+            "connect_wallet": "Connect Wallet",
+            "enable_trading": "Enable Trading",
+            "learn_more_desc": "Learn more about portfolio margin on Aevo"
+        },
+        "PortfolioPage": {
+            "PortfolioPage": {
+                "overview": "Overview",
+                "positions": "Positions",
+                "open_orders": "Open Orders",
+                "order_history": "Order History",
+                "trade_history": "Trade History",
+                "funding_history": "Funding History",
+                "transfers_and_rewards": "Transfers and Rewards",
+                "enable_trading": "Enable Trading",
+                "connect_wallet": "Connect Wallet",
+                "deposit": "Deposit",
+                "withdraw": "Withdraw",
+                "transfer": "Transfer",
+                "liquidations_in_progress": "Liquidations In Progress"
+            },
+            "mobile": {
+                "MobileFundingHistoryTab": {
+                    "no_history_desc": "You have no funding history",
+                    "long": "Long",
+                    "short": "Short",
+                    "size": "Size",
+                    "funding_rate": "Funding Rate",
+                    "payment": "Payment"
+                },
+                "MobileOrdersTab": {
+                    "no_history_desc": "You have no orders",
+                    "orders": "Orders",
+                    "cancel_all_orders": "Cancel All Orders",
+                    "bid": "Bid",
+                    "offer": "Offer",
+                    "price": "Price",
+                    "size_fill": "Size / Fill"
+                },
+                "MobilePortfolioPage": {
+                    "summary": "Summary",
+                    "positions": "Positions",
+                    "orders": "Orders",
+                    "history": "History",
+                    "funding": "Funding",
+                    "transfers": "Transfers"
+                },
+                "MobilePositionsTab": {
+                    "no_history_desc": "You have no positions",
+                    "positions": "Positions",
+                    "settlement_in_progress": "Settlement in progress",
+                    "long": "Long",
+                    "short": "Short",
+                    "size": "Size",
+                    "pnl": "PnL"
+                },
+                "MobileTradeHistoryTab": {
+                    "no_history_desc": "You have no trade history",
+                    "long": "Long",
+                    "short": "Short",
+                    "price": "Price",
+                    "size": "Size",
+                    "type": "Type",
+                    "trade_history": "Trade History"
+                },
+                "MobileTransfersTab": {
+                    "deposit": "deposit",
+                    "withdraw": "withdraw",
+                    "send": "send",
+                    "receive": "receive",
+                    "rewards_received": "Rewards Received",
+                    "in_progress": "In Progress",
+                    "amount": "Amount",
+                    "time": "Time",
+                    "no_history_desc": "You have no funding history"
+                }
+            }
+        },
+        "PositionsTab": {
+            "positions": "Positions"
+        },
+        "ReferralsTab": {
+            "ReferralsTab": {
+                "referral_link_copied": "Referral link copied",
+                "referrals": "Referrals",
+                "referrals_desc_1": "Boost your earnings and savings with Aevo's referral program! Refer traders and earn 10% of their trading fees. Each referred trader also receives a 10% discount on trading fees for 6 months.",
+                "referrals_desc_2": "View referral program details",
+                "traders_referred": "Traders Referred",
+                "referees_volume": "Referees Volume",
+                "unclaimed_rewards": "Unclaimed Rewards",
+                "total_rewards_earned": "Total Rewards Earned",
+                "claim_rewards": "Claim Rewards",
+                "connect_wallet": "Connect Wallet",
+                "enable_trading": "Enable Trading",
+                "rewards_history": "Rewards History",
+                "referral_history": "Referral History"
+            },
+            "ReferralTable": {
+                "trader": "Trader",
+                "date": "Date",
+                "total_volume_traded": "Total Volume Traded",
+                "no_history_desc": "You have no referrals history",
+                "connect_wallet_desc": "Please connect your wallet"
+            },
+            "RewardTable": {
+                "reward_type": "Reward Type",
+                "date": "Date",
+                "reward_earned": "Reward Earned",
+                "referral_bonus": "Referral Bonus",
+                "referral_discount": "Referral Discount",
+                "no_history_desc": "You have no rewards history",
+                "connect_wallet_desc": "Please connect your wallet"
+            }
+        },
+        "RewardsPage": {
+            "referrals": "Referrals",
+            "taker_rewards": "Taker Rewards"
+        },
+        "RewardsTakerTab": {
+            "rank": "Rank",
+            "trader": "Trader",
+            "you": "You",
+            "volume_traded": "Volume Traded",
+            "biweekly_perp_trader_rewards": "Biweekly Perp Trader Rewards",
+            "biweekly_perp_trader_rewards_desc": "Get rewarded for your trading activity with our volume-based rewards program! Stand a chance to earn up to $15,000 every 2 weeks as an active trader, or join our community in reaching trading volume milestones to unlock shared rewards.",
+            "learn_more": "Learn more",
+            "community_weekly_volume_progress": "Community Weekly Volume Progress",
+            "no_trades": "No trades",
+            "current_week": "Current week"
+        },
+        "SettingsPage": {
+            "SettingsPage": {
+                "signing_keys": "Signing Keys",
+                "api_keys": "API Keys",
+                "email_notifications": "Email Notifications",
+                "portfolio_margin": "Portfolio Margin",
+                "market_maker_protection": "Market Maker Protection",
+                "user_settings": "User Settings"
+            },
+            "MobileSettingsPage": {
+                "signing_keys": "Signing Keys",
+                "api_keys": "API Keys",
+                "email_notifications": "Email Notifications",
+                "portfolio_margin": "Portfolio Margin",
+                "market_maker_protection": "Market Maker Protection"
+            }
+        },
+        "SettlementHistoryTab": {
+            "asset": "Asset",
+            "expiry": "Expiry",
+            "settlement_price": "Settlement Price",
+            "date_time": "Date Time",
+            "all_options": "All Options",
+            "aevo_settlement_history": "Aevo Settlement History"
+        },
+        "SigningKeysPage": {
+            "signing_key": "Signing Key",
+            "enable_trading": "Enable Trading",
+            "connect_wallet": "Connect Wallet",
+            "copy_signing_key_desc": "Copied Signing Key to clipboard",
+            "removed_key_desc": "Removed {{key}}",
+            "error": "Error",
+            "remove_signing_key": "Remove Signing Key",
+            "remove": "Remove",
+            "current_signing_key_desc": "After removing {{key}}, you will need to generate a new signing key linked to your wallet in order to re-enable trading in this browser.",
+            "signing_key_desc": "After removing {{key}}, you will need to generate a new signing key linked to your wallet in order to re-enable trading in the browser in which {{key}} was generated.",
+            "active_signing_keys": "Active Signing Keys",
+            "active_signing_keys_desc": "Signing keys are randomly generated keys produced by your browser and linked to your wallet in order to ensure that you enjoy a fast, reliable and secure trading experience across multiple devices."
+        },
+        "TradeHistoryTab": {
+            "market": "Market",
+            "side": "Side",
+            "type": "Type",
+            "size": "Size",
+            "price": "Price",
+            "order_type": "Order Type",
+            "trade_type": "Trade Type",
+            "pnl": "PnL",
+            "fees": "Fees",
+            "date_time": "Date Time",
+            "trade_history": "Trade History",
+            "aevo_trade_history": "Aevo Trade History"
+        },
+        "TradingPage": {
+            "VolatilityWarningBanner": {
+                "warning_message": "Note: This instrument is volatile, please exercise caution when trading"
+            },
+            "TradingPageTabs": {
+                "options_chain": "Options Chain",
+                "trade_history": "Trade History"
+            }
+        },
+        "TransactionHistoryTab": {
+            "transfers_and_rewards": "Transfers and Rewards"
+        }
+    },
+    "TradeHistory": {
+        "TradeHistory": {
+            "iv": "IV",
+            "market": "Market",
+            "side": "Side",
+            "type": "Type",
+            "size": "Size",
+            "price": "Price",
+            "order_type": "Order Type",
+            "realized_pnl": "Realized PnL",
+            "time": "Time",
+            "no_trade_history": "You have no trade history",
+            "buy": "Buy",
+            "sell": "Sell",
+            "trade": "Trade",
+            "liquidation": "Liquidation",
+            "settlement": "Settlement",
+            "funding": "Funding",
+            "limit": "Limit"
+        }
+    },
+    "shared": {
+        "BalanceMarginUtilization": {
+            "equity": "Equity",
+            "im_utilization": "IM Utilization",
+            "mm_utilization": "MM Utilization",
+            "im": "IM",
+            "mm": "MM"
+        },
+        "AccountDropdown": {
+            "mmp_triggered": "MMP Triggered",
+            "view_transfers_in_progress": "View Transfers In Progress",
+            "connect_wallet": "Connect Wallet",
+            "pm": "PM"
+        },
+        "ClosePositionOverlayInfo": {
+            "bid": "bid",
+            "ask": "ask",
+            "offer": "offer",
+            "iv": "IV",
+            "order_protection_desc_1": "Order protection has been triggered because your position will be closed with a market order that fills a {{side}} that is more than {{markPercentage}}% lower than the mark price.",
+            "order_protection_desc_2": "To reduce the size of your position safely, please refer to the orderbook and try placing an order manually in the trade ticket.",
+            "no_liquidity_desc": "There is no liquidity on the orderbook. Closing this position might fail.",
+            "close_position": "Close Position",
+            "order_protection_triggered": "Order Protection Triggered",
+            "cancel": "Cancel",
+            "sufficient_liquidity_desc_1": "Your position will be closed at the best {{side}} in the orderbook of",
+            "sufficient_liquidity_desc_2": "resulting in an expected",
+            "profit": "profit",
+            "loss": "loss",
+            "of": "of",
+            "sufficient_blend_liquidity_desc": "Due to liquidity constraints in the orderbook, your position will be closed at an average price of ",
+            "insufficient_blend_liquidity_desc": "Due to insufficient liquidity in the orderbook, your position will be partially closed at an average price of ",
+            "blend_liquidity_desc_2": "resulting in an expected"
+        },
+        "DepositPendingModal": {
+            "view_transaction": "View Transaction"
+        },
+        "MobileNavigationMenu": {
+            "docs": "Docs",
+            "api_reference": "API Reference",
+            "help_centre": "Help Centre",
+            "about": "About",
+            "twitter": "Twitter",
+            "discord": "Discord",
+            "github": "Github",
+            "media_kit": "Media Kit",
+            "blog": "Blog",
+            "otc": "OTC"
+        },
+        "MultiSelectAssetDropdown": {
+            "asset": "Asset",
+            "all": "All",
+            "selected": "Selected"
+        },
+        "NotificationPanel": {
+            "notifications": "Notifications",
+            "mark_all_as_read": "Mark all as read",
+            "no_notifications": "You have no notifications",
+            "deposit_complete": "Deposit Complete",
+            "deposit_complete_desc": "{{asset}} is now available for trading",
+            "transfer_received": "Transfer Received",
+            "transfer_received_desc": "Received {{asset}} from {{address}}",
+            "program_received": "{{programName}} Received",
+            "program_received_desc_1": "You received {{asset}} as a reward for participating in the {{programName}} program. See",
+            "program_received_desc_2": "program details",
+            "trading_credits_received": "USDC Trading Credits Received",
+            "trading_credits_received_desc": "You received {{asset}} in trading credits as a reward for depositing 100 USDC or more.",
+            "default_received_desc": "Received {{asset}} as part of {{programName}}",
+            "withdrawal_complete": "Withdrawal Complete",
+            "withdrawal_complete_desc": "{{asset}} has been withdrawn from your account",
+            "account_unfrozen": "Account Unfrozen",
+            "account_unfrozen_desc": "Your account has been unfrozen",
+            "mmp_enabled": "MMP Enabled",
+            "mmp_enabled_desc": "MMP successfully enabled",
+            "mmp_disabled": "MMP Disabled",
+            "mmp_disabled_desc": "MMP successfully disabled",
+            "mmp_triggered": "MMP Triggered",
+            "liquidation_mode": "Liquidation Mode",
+            "liquidation_mode_desc": "Your account is now in liquidation mode as your maintenance margin utilization has exceeded 100%",
+            "liquidations_completed": "Liquidations Completed",
+            "liquidations_completed_desc_1": "Your account incurred a liquidation fee of {{fee}} USDC and",
+            "liquidations_completed_desc_2_single": "1 position was liquidated",
+            "liquidations_completed_desc_2_plural": "{{count}} positions were liquidated",
+            "bid_filled": "Bid Filled",
+            "ask_filled": "Ask Filled",
+            "contracts_at": "contracts at",
+            "new_trader_referred": "New Trader Referred",
+            "new_trader_referred_desc": "A new trader has joined Aevo using your referral code. You will start earning {{commission}}% of all fees generated by the trader.",
+            "trading_fee_discount": "Trading Fee Discount Unlocked",
+            "trading_fee_discount_desc": "Your {{commission}}% discount on all trading fees has been unlocked using referral code",
+            "short_settlement": "Short Settlement",
+            "long_settlement": "Long Settlement",
+            "contracts_bought_desc": "contracts you bought expired",
+            "contracts_sold_desc": "contracts you sold expired",
+            "in_the_money": "in-the-money",
+            "out_the_money": "out-the-money",
+            "realized_profit_desc": "resulting in a realized profit of",
+            "realized_loss_desc": "resulting in a realized loss of",
+            "email_verified": "Email Address Verified",
+            "email_verified_desc": "Your email address has been verified and you can now receive email notifications for enabled events"
+        },
+        "Pagination": {
+            "showing": "Showing",
+            "out_of": "out of",
+            "items": "items",
+            "items_per_page": "Items per page"
+        },
+        "Toggle": {
+            "on": "On",
+            "off": "Off"
+        },
+        "ViewDetailsModal": {
+            "PositionDetailsModal": {
+                "error_close_position": "Error closing position",
+                "unrealized_pnl": "Unrealized PNL",
+                "side": "Side",
+                "long": "Long",
+                "short": "Short",
+                "contracts": "Contracts",
+                "avg_entry_price": "Avg Entry Price",
+                "total": "Total",
+                "maintenance_margin": "Maintenance Margin",
+                "leverage": "Leverage",
+                "liquidation_price": "Liquidation Price",
+                "delta": "Delta",
+                "theta": "Theta",
+                "close_position": "Close Position"
+            },
+            "FundingDetailsModal": {
+                "side": "Side",
+                "contracts": "Contracts",
+                "funding_rate": "Funding Rate",
+                "payment": "Payment",
+                "mark_price": "Mark Price",
+                "date_and_time": "Date and Time",
+                "trade_id": "Trade ID",
+                "copied_trade_id": "Copied Trade ID"
+            },
+            "MarketHeader": {
+                "mark_price": "Mark Price"
+            },
+            "OrderDetailsModal": {
+                "side": "Side",
+                "order_type": "Order Type",
+                "reduce_only": "Reduce Only",
+                "order_size": "Order Size",
+                "filled": "Filled",
+                "price": "Price",
+                "initial_margin": "Initial Margin",
+                "date_and_time": "Date and Time",
+                "order_id": "Order ID",
+                "copied_order_id": "Copied Order ID",
+                "yes": "Yes",
+                "no": "No",
+                "edit_order":"Edit order",
+                "remove_order":"Remove order"
+            },
+            "TradeDetailsModal": {
+                "close_short": "Close Short",
+                "close_long": "Close Long",
+                "open_long": "Open Long",
+                "open_short": "Open Short",
+                "side": "Side",
+                "type": "Type",
+                "settlement_price": "Settlement Price",
+                "size": "Size",
+                "price": "Price",
+                "order_type": "Order Type",
+                "realized_pnl": "Realized PnL",
+                "spot_price": "Spot Price",
+                "fees": "Fees",
+                "date_time": "Date and Time",
+                "trade_id": "Trade ID",
+                "copied_trade_id": "Copied Trade ID"
+            }
+        }
+    },
+    "TicketDetails": {
+        "TicketDetails": {
+            "select_strike_price": "Please select a strike price",
+            "orderbook": "Orderbook",
+            "data": "Data",
+            "payoff": "Payoff",
+            "trades": "Trades"
+        },
+        "PayoffChart": {
+            "payoff": "Payoff",
+            "time_to_expiry": "Time to Expiry"
+        },
+        "Greeks": {
+            "delta": "Delta",
+            "vega": "Vega",
+            "gamma": "Gamma",
+            "rho": "Rho",
+            "theta": "Theta"
+        },
+        "TradeOrderbook": {
+            "your_bid": "Your Bid",
+            "your_ask": "Your Ask",
+            "price": "Price",
+            "contracts_offered": "Contracts Offered",
+            "order_protection_barrier": "Order Protection Barrier",
+            "order_protection_barrier_explanation_1": "Market orders will not fill {{type}} that are outside the order protection barrier.",
+            "order_protection_barrier_explanation_2": "The lower protection barrier is calculated as:",
+            "order_protection_barrier_explanation_3": "Mark Price - Max(Mark Price * {{markCollar}}, {{indexCollar}} * Index Price)",
+            "order_protection_barrier_explanation_4": "The upper protection barrier is calculated as:",
+            "order_protection_barrier_explanation_5": "Mark Price + Max(Mark Price * {{markCollar}}, {{indexCollar}} * Index Price)",
+            "price_iv": "Price / IV",
+            "cumulative": "Cumulative",
+            "size": "Size"
+        }
+    },
+    "TradeForm": {
+        "Common": {
+            "continue_onboarding": "Continue Onboarding",
+            "enable_trading": "Enable Trading",
+            "connect_wallet": "Connect Wallet",
+            "liquidations_in_progress": "Account liquidations in progress",
+            "close_position": "Close Position",
+            "contracts": "Contracts",
+            "limit_price": "Limit Price",
+            "market_buy_failed": "Market Buy Failed",
+            "market_sell_failed": "Market Sell Failed",
+            "limit_buy_failed": "Buy Limit Order Failed",
+            "limit_sell_failed": "Sell Limit Order Failed",
+            "place_order_again": "Please place your order again",
+            "buy_amount": "Buy Amount",
+            "sell_amount": "Sell Amount",
+            "buy": "Buy",
+            "sell": "Sell",
+            "market": "Market",
+            "limit": "Limit",
+            "margin_balance": "Margin Balance",
+            "buying_power": "Buying Power"
+        },
+        "MinifiedTabs": {
+            "trade_ticket": "Trade Ticket"
+        },
+        "OptionsTradeForm": {
+            "OptionsTradeForm": {
+                "total": "Total",
+                "premiums_earned": "Premiums Earned",
+                "margin_required": "Margin Required",
+                "available_balance": "Available Balance",
+                "current_position": "Current Position",
+                "position_roi": "Position ROI",
+                "insufficient_liquidity": "Insufficient market liquidity",
+                "market_buy": "Market Buy",
+                "market_sell": "Market Sell",
+                "avg_price": "Avg. Price",
+                "bid_placed": "Bid Placed",
+                "offer_placed": "Offer Placed",
+                "order_protection_triggered": "Order Protection Triggered",
+                "order_protection_desc_bid": "Protection has been triggered because this order will fill a bid that is outside the order protection barrier. Please ",
+                "order_protection_desc_offer": "Protection has been triggered because this order will fill an offer that is outside the order protection barrier. Please ",
+                "order_protection_desc_reduce_1": "reduce order size",
+                "order_protection_desc_reduce_2": " to ",
+                "order_protection_desc_reduce_3": "{{amount}} contracts ",
+                "order_protection_desc_reduce_4": "or smaller to place order",
+                "order_protection_desc_try_limit_order_bid": "try placing a buy limit order.",
+                "order_protection_desc_try_limit_order_ask": "try placing a sell limit order.",
+                "long": "Long",
+                "short": "Short",
+                "place_order": "Place Order",
+                "select_strike_price": "Please select a strike price",
+                "trading": "Trading",
+                "orderbook": "Orderbook"
+            },
+            "FeeInfo": {
+                "fees": "Fees"
+            },
+            "Form": {
+                "number_of_contracts": "Number of contracts",
+                "price": "Price"
+            }
+        },
+        "PerpsTradeForm": {
+            "PerpsTradeForm": {
+                "trigger_price": "Trigger Price",
+                "reduce_only": "Reduce Only",
+                "place_order_again": "Please place your order again",
+                "market": "Market",
+                "limit": "Limit",
+                "position_closed": "Position Closed",
+                "error_close_position": "Error closing position"
+            },
+            "Form": {
+                "limit_price": "Limit Price",
+                "trigger_price": "Trigger Price",
+                "mark_price": "Mark Price",
+                "order_size": "Order Size",
+                "leverage": "Leverage",
+                "reduce_only": "Reduce Only"
+            },
+            "LimitOrderForm": {
+                "position": "Position",
+                "position_leverage": "Position Leverage",
+                "minimum_size_error": "Minimum size is {{size}} {{asset}}",
+                "total": "Total"
+            },
+            "MarketOrderForm": {
+                "position": "Position",
+                "position_leverage": "Position Leverage",
+                "minimum_size_error": "Minimum size is {{size}} {{asset}}",
+                "total": "Total",
+                "deselect_reduce_only": "Deselect Reduce Only",
+                "reduce_only_error_desc_1": "You cannot create a {{orderDirection}} {{orderType} order because ",
+                "reduce_only_error_desc_2_open_position_long": "you have an open long position",
+                "reduce_only_error_desc_2_open_position_short": "you have an open short position",
+                "reduce_only_error_desc_2_no_position": "you have no open position",
+                "reduce_only_error_desc_3_and": " and ",
+                "reduce_only_error_desc_4_reduce_only": "\"Reduce Only\"",
+                "reduce_only_error_desc_5": " selected. To create a new order you must deselect \"Reduce Only\".",
+                "insufficient_market_liquidity": "Insufficient market liquidity",
+                "long": "Long",
+                "short": "Short",
+                "place_order": "Place Order"
+            },
+            "MarketDetails": {
+                "market_details": "Market Details",
+                "learn_more": "Learn more",
+                "min_contract_size": "Min Contract Size",
+                "min_notional_value": "Min Notional Value",
+                "tick_size": "Tick Size",
+                "settlement_asset": "Settlement Asset",
+                "avg_1h_funding": "Avg. 1h Funding (last 24hrs)"
+            }
+        }
+    },
+    "TradingBottomBar": {
+        "TradingBottomBar": {
+            "connect_wallet": "Connect Wallet",
+            "enable_trading": "Enable Trading",
+            "continue_onboarding": "Continue Onboarding",
+            "no_positions": "You currently have no positions",
+            "no_orders": "You currently have no orders",
+            "no_history": "You currently have no history",
+            "positions": "Positions",
+            "orders": "Orders",
+            "history": "History",
+            "perp_only": "{{asset}} Perp only",
+            "options_only": "{{asset}} Options only"
+        },
+        "PerpPosition": {
+            "close_position": "Close Position",
+            "unrealized_pnl": "Unrealized PnL",
+            "avg_entry_price": "Avg. Entry Price",
+            "leverage": "Leverage",
+            "margin": "Margin",
+            "liquidation_price": "Liquidation Price"
+        },
+        "CompactPerpPosition": {
+            "long": "Long",
+            "short": "Short"
+        }
+    },
+    "TradingHeader": {
+        "OptionsTradingHeader": {
+            "open_interest": "Open Interest",
+            "put_call": "Put:Call",
+            "put_call_ratio": "Put/Call Ratio",
+            "puts_open_interest": "Puts Open Interest",
+            "calls_open_interest": "Calls Open Interest",
+            "daily_volume": "24h Volume",
+            "spot_daily_change": "{{asset}} Spot 24h Change"
+        },
+        "PerpsTradingHeader": {
+            "index_price": "Index Price",
+            "mark_price": "Mark Price",
+            "hourly_funding_rate": "1h Funding Rate",
+            "funding_rate_countdown": "Funding Rate Countdown",
+            "daily_volume": "24h Volume",
+            "open_interest": "Open Interest",
+            "daily_change": "24h Change"
+        },
+        "Price": {
+            "spot": "Spot"
+        }
+    },
+    "TransactionHistory": {
+        "TransactionHistory": {
+            "action": "Action",
+            "amount": "Amount",
+            "time": "Time",
+            "in_progress": "In progress",
+            "no_transfers_history": "No transfers and rewards history",
+            "rewards_received": "Rewards Received",
+            "deposit": "Deposit",
+            "withdraw": "Withdraw",
+            "send": "Send",
+            "receive": "Receive"
+        },
+        "TransactionDetailsModal": {
+            "rewards_received": "Rewards Received",
+            "deposit_details": "Deposit Details",
+            "withdraw_details": "Withdraw Details",
+            "receive_details": "Receive Details",
+            "send_details": "Send Details",
+            "reward_type": "Reward Type",
+            "deposit_asset": "Deposit Asset",
+            "withdraw_asset": "Withdraw Asset",
+            "receive_asset": "Receive Asset",
+            "send_asset": "Send Asset",
+            "withdraw_destination": "Withdraw Destination",
+            "deposit_origin": "Deposit Origin",
+            "amount": "Amount",
+            "sender_address": "Sender Address",
+            "recipient_address": "Recipient Address",
+            "copied_address": "Copied Address",
+            "time_and_date": "Time & Date",
+            "view_transaction": "View {{network}} transaction",
+            "program_details": "Program Details"
+        }
+    },
+    "UptimeMonitor": {
+        "UptimeMonitor": {
+            "maintenance_in_progress": "Systems Maintenance in Progress",
+            "systems_outage": "Systems Outage",
+            "partial_systems_outage": "Partial Systems Outage",
+            "systems_operational": "Systems Operational"
+        },
+        "MaintenanceSchedule": {
+            "scheduled_at": "Maintenance scheduled for {{time}} UTC on {{date}}"
+        },
+        "CurrentTimeUTC": {
+            "utc": "UTC"
+        }
+    },
+    "utils": {
+        "order": {
+            "limit": "Limit",
+            "market": "Market",
+            "stop_limit": "Stop Limit",
+            "stop_market": "Stop Market",
+            "tp_limit": "Take Profit Limit",
+            "tp_market": "Take Profit Market",
+            "tp_limit_short": "TP Limit",
+            "tp_market_short": "TP Market"
+        },
+        "date": {
+            "one_month": "1 month ago",
+            "n_months":"{{n}} months ago",
+            "one_week": "1 week ago",
+            "n_weeks":"{{n}} weeks ago",
+            "one_day": "1 day ago",
+            "n_days":"{{n}} days ago",
+            "one_hour": "1 hour ago",
+            "n_hours":"{{n}} hours ago",
+            "one_min": "1 min ago",
+            "n_mins":"{{n}} mins ago",
+            "just_now":"Just",
+            "short_week":"{{n}}W",
+            "short_day":"{{n}}D",
+            "short_hour":"{{n}}H",
+            "short_min":"{{n}}M",
+            "short_sec": "{{n}}S",
+            "short_one_min":"1M",
+            "expired":"Expired"
+        }
+    }
+}

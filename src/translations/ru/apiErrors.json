@@ -1,0 +1,56 @@
+{
+    "ACCOUNT_LIQUIDATION": "Учетная запись в процессе ликвидации, пожалуйста, внесите дополнительный залог",
+    "SIGNING_KEY_EXISTS": "Ключ подписи существует",
+    "API_KEY_EXISTS": "API-ключ существует",
+    "ACCOUNT_DOES_NOT_EXIST": "Учетная запись не существует",
+    "ACCOUNT_INVALID_API_KEY": "Недействительный API-ключ",
+    "ACCOUNT_INVALID_SIGNING_KEY": "Недействительный ключ подписи",
+
+    "RISK_INVALID_ORDER": "Ошибка RISK_INVALID_ORDER",
+
+    "ORDERBOOK_NOT_FOUND": "Ошибка ORDERBOOK_NOT_FOUND",
+    "ORDERBOOK_INVALID": "Ошибка ORDERBOOK_INVALID",
+    "ORDERBOOK_EMPTY": "Недостаточная ликвидность, книга заказов пуста",
+
+    "ORDER_NOT_FOUND": "Ошибка ORDER_NOT_FOUND",
+    "ERROR_TIMED_OUT": "Время истекло. Попробуйте еще раз",
+    "CANNOT_DECODE": "Ошибка CANNOT_DECODE",
+    "INVALID_OUTPUT": "Ошибка INVALID_OUTPUT",
+    "INVALID_TOKEN": "Ошибка INVALID_TOKEN",
+    "UKNOWN_SIGNING_METHOD": "Ошибка UKNOWN_SIGNING_METHOD",
+    "DEPOSIT_NO_ID": "Ошибка DEPOSIT_NO_ID",
+    "DEPOSIT_NO_AMOUNT": "Ошибка DEPOSIT_NO_AMOUNT",
+    "DEPOSIT_INVALID_AMOUNT": "Ошибка DEPOSIT_INVALID_AMOUNT",
+    "ACCOUNT_NO_ID": "Ошибка ACCOUNT_NO_ID",
+    "CANCEL_MISSING_PARAMS": "Ошибка CANCEL_MISSING_PARAMS",
+    "SYMBOL_REQUIRED": "Ошибка SYMBOL_REQUIRED",
+
+    "PRICES_RESOLUTION_REQUIRED": "Ошибка PRICES_RESOLUTION_REQUIRED",
+    "PRICES_START_TIME_REQUIRED": "Ошибка PRICES_START_TIME_REQUIRED",
+    "PRICES_END_TIME_REQUIRED": "Ошибка PRICES_END_TIME_REQUIRED",
+    "PRICES_SYMBOL_REQUIRED": "Ошибка PRICES_SYMBOL_REQUIRED",
+
+    "ORDER_INVALID_AMOUNT": "Неправильная сумма заказа",
+    "ORDER_INVALID_SALT": "Неправильный salt заказа",
+    "ORDER_NEGATIVE_FILL": "Отрицательное выполнение заказа",
+    "ORDER_NEGATIVE_PRICE": "Цена заказа не может быть отрицательной",
+    "ORDER_INVALID_TIME": "Недействительное время заказа",
+    "ORDER_INVALID_SIGNATURE": "Заказ представлен с недействительной подписью",
+    "ORDER_INVALID_SIGNING_KEY": "Заказ представлен с недействительным ключом подписи",
+    "IOC_ORDER_REJECTED": "Не удалось отправить заказ",
+
+    "OPTIONS_NO_ASSET": "Ошибка OPTIONS_NO_ASSET",
+    "OPTIONS_NO_EXPIRY": "Ошибка OPTIONS_NO_EXPIRY",
+
+    "SIGNING_HASHWITHDRAW_FAILED": "Ошибка SIGNING_HASHWITHDRAW_FAILED",
+    "WITHDRAW_INVALID_COLLATERAL": "Ошибка WITHDRAW_INVALID_COLLATERAL",
+    "WITHDRAW_INVALID_AMOUNT": "Ошибка WITHDRAW_INVALID_AMOUNT",
+    "WITHDRAW_INVALID_SALT": "Ошибка WITHDRAW_INVALID_SALT",
+    "WITHDRAW_NOT_ENOUGH_BALANCE": "Недостаточно средств для вывода",
+    "WITHDRAW_ACCOUNT_MATCH_FAILED": "Ошибка сопоставления при снятии средств",
+
+    "INVALID_PRICE_STEP_SIZE": "Недействительный размер шага цены",
+    "EXCEED_ORDER_PRICE_BAND": "Лимитная цена выходит за пределы диапазона цен",
+
+    "AMOUNT_LIMIT_LESS_THAN_ZERO": "Лимит суммы должен быть больше 0"
+}
