@@ -1,6 +1,7 @@
 {
     "Header": {
         "AccountModal": {
+            "enable_trading": "Включить торговлю",
             "continue_onboarding": "Продолжить регистрацию",
             "deposit": "Депозит",
             "liquidations_in_progress": "Ликвидации в процессе",
