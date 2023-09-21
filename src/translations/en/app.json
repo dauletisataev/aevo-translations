@@ -129,12 +129,12 @@
             "short": "Short",
             "update_order": "Update Order",
             "edit_order_error": "Unable to edit order",
-            "buy":"Buy",
-            "sell":"Sell",
-            "call":"Call",
-            "put":"Put",
-            "limit":"Limit",
-            "market":"Market"
+            "buy": "Buy",
+            "sell": "Sell",
+            "call": "Call",
+            "put": "Put",
+            "limit": "Limit",
+            "market": "Market"
         },
         "RemoveOrderModal": {
             "order_edited_header": "Order Removed",
@@ -772,7 +772,7 @@
         "errors": "Errors",
         "options_chain_desc": "Customize the columns displayed in the options chain",
         "sfx_desc": "Customise sound effects for specific events",
-        "language_desc":"Choose a language",
+        "language_desc": "Choose a language",
         "trade_settings": "Trade Settings",
         "sound_effects": "Sound Effects",
         "options_chain": "Options Chain",
@@ -1290,8 +1290,8 @@
                 "copied_order_id": "Copied Order ID",
                 "yes": "Yes",
                 "no": "No",
-                "edit_order":"Edit order",
-                "remove_order":"Remove order"
+                "edit_order": "Edit order",
+                "remove_order": "Remove order"
             },
             "TradeDetailsModal": {
                 "close_short": "Close Short",
@@ -1442,7 +1442,7 @@
                 "minimum_size_error": "Minimum size is {{size}} {{asset}}",
                 "total": "Total",
                 "deselect_reduce_only": "Deselect Reduce Only",
-                "reduce_only_error_desc_1": "You cannot create a {{orderDirection}} {{orderType} order because ",
+                "reduce_only_error_desc_1": "You cannot create a {{orderDirection}} {{orderType}} order because ",
                 "reduce_only_error_desc_2_open_position_long": "you have an open long position",
                 "reduce_only_error_desc_2_open_position_short": "you have an open short position",
                 "reduce_only_error_desc_2_no_position": "you have no open position",
@@ -1577,23 +1577,23 @@
         },
         "date": {
             "one_month": "1 month ago",
-            "n_months":"{{n}} months ago",
+            "n_months": "{{n}} months ago",
             "one_week": "1 week ago",
-            "n_weeks":"{{n}} weeks ago",
+            "n_weeks": "{{n}} weeks ago",
             "one_day": "1 day ago",
-            "n_days":"{{n}} days ago",
+            "n_days": "{{n}} days ago",
             "one_hour": "1 hour ago",
-            "n_hours":"{{n}} hours ago",
+            "n_hours": "{{n}} hours ago",
             "one_min": "1 min ago",
-            "n_mins":"{{n}} mins ago",
-            "just_now":"Just",
-            "short_week":"{{n}}W",
-            "short_day":"{{n}}D",
-            "short_hour":"{{n}}H",
-            "short_min":"{{n}}M",
+            "n_mins": "{{n}} mins ago",
+            "just_now": "Just",
+            "short_week": "{{n}}W",
+            "short_day": "{{n}}D",
+            "short_hour": "{{n}}H",
+            "short_min": "{{n}}M",
             "short_sec": "{{n}}S",
-            "short_one_min":"1M",
-            "expired":"Expired"
+            "short_one_min": "1M",
+            "expired": "Expired"
         }
     }
 }

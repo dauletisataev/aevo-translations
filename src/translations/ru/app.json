@@ -1,0 +1,157 @@
+{
+    "Header": {
+        "AccountModal": {
+            "enable_trading": "Включить торговлю",
+            "continue_onboarding": "Продолжить регистрацию",
+            "deposit": "Депозит",
+            "liquidations_in_progress": "Ликвидации в процессе",
+            "withdraw": "Вывод средств",
+            "transfer": "Перевод",
+            "no_ongoing_transactions_desc": "У вас нет текущих транзакций",
+            "estimated_deposit_time": "Предполагаемое время депозита",
+            "estimated_withdraw_time": "Предполагаемое время вывода средств",
+            "estimated_send_time": "Предполагаемое время отправки",
+            "estimated_receive_time": "Предполагаемое время получения",
+            "n_hours": "{{hours}} час(а/ов)",
+            "n_minutes": "{{minutes}} минута(ы)",
+            "less_than_1_minute": "<1 минуты",
+            "username": "Имя пользователя",
+            "exchange_equity": "Капитал на бирже",
+            "im_utilization": "Использование ИМ",
+            "mm_utilization": "Использование ММ",
+            "live_pnl": "Текущий PnL",
+            "open_block_explorer": "Открыть обозреватель блоков",
+            "transfers_in_progress": "Переводы в процессе",
+            "user_settings": "Настройки пользователя",
+            "disconnect": "Отключить"
+        },
+        "MobileMaintenanceInProgress": {
+            "maintenance_desc": "Проводится плановое техническое обслуживание"
+        },
+        "Header": {
+            "trading": "Торговля",
+            "test": "Это {{test}}",
+            "portfolio": "Портфель",
+            "rewards": "Награды",
+            "historical_data": "Исторические данные",
+            "community": "Сообщество",
+            "about": "О нас",
+            "twitter": "Твиттер",
+            "discord": "Дискорд",
+            "github": "Гитхаб",
+            "docs": "Документы",
+            "api_reference": "API справочник",
+            "blog": "Блог",
+            "media_kit": "Медиа комплект",
+            "otc": "OTC"
+        },
+        "AboutAevoModal": {
+            "about1": "Aevo - это первая в мире высокопроизводительная децентрализованная биржа опционов.",
+            "about2": "Биржа работает на собственном EVM roll-up, который суммируется в Ethereum. Aevo использует внебиржевую книгу заказов с расчетами на блокчейне. Это означает, что после сопоставления заказов сделки выполняются и урегулированы с помощью смарт-контрактов.",
+            "about3": "Aevo при поддерже",
+            "vc": {
+                "paradigm": "Paradigm",
+                "dragonfly_capital": "Dragonfly Capital",
+                "ethereal_ventures": "Ethereal Ventures",
+                "coinbase_ventures": "Coinbase Ventures",
+                "nascent": "Nascent",
+                "robot_ventures": "Robot Ventures",
+                "scalar_capital": "Scalar Capital",
+                "alliance": "Alliance"
+            }
+        }
+    },
+    "AccountBalance": {
+        "portfolio_overview": "Обзор портфеля",
+        "equity": "Капитал",
+        "available_balance": "Доступный баланс",
+        "live_pnl": "Текущий PnL",
+        "realized_pnl": "Реализованный PnL",
+        "profit_factor": "Коэффициент прибыли",
+        "win_rate": "Процент успеха"
+    },
+    "APISigningKeys": {
+        "created_at": "Создано в {{time}}",
+        "online": "Онлайн",
+        "offline": "Офлайн"
+    },
+    "ClaimRewardsModal": {
+        "rewards_claimed": "Награды получены",
+        "claim_rewards": "Получить награды",
+        "total_unclaimed_rewards": "Всего неполученных наград",
+        "referral_bonus": "Бонус за реферала",
+        "referral_discount": "Скидка за реферала",
+        "slide_to_claim": "Перетащите, чтобы получить",
+        "try_again": "Пожалуйста, попробуйте снова"
+    },
+    "ConfirmationModal": {
+        "CancelAllOrdersModal": {
+            "cancel_success": "Все заказы успешно отменены",
+            "cancel_failed": "Не удалось отменить все заказы",
+            "place_order_again": "Пожалуйста, разместите ваш заказ снова",
+            "cancel_all_orders_title": "Отменить все заказы?",
+            "cancel_all_orders_text": "Вы уверены, что хотите отменить все заказы?",
+            "confirm": "Подтвердить"
+        },
+        "ClosePositionModal": {
+            "position_closed_header": "Позиция закрыта",
+            "position_closed_subheader": "Ваша позиция была успешно закрыта",
+            "insufficient_liquidity_error": "Недостаточная ликвидность на рынке для закрытия позиции. Попробуйте закрыть свою позицию с помощью лимитного ордера.",
+            "partial_liquidity_warning": "Ваша позиция может быть закрыта только частично из-за недостатка ликвидности",
+            "contracts": "Контракты",
+            "avg_entry_price": "Средн. цена входа",
+            "unrealized_pnl": "Нереализованная прибыль и убыток",
+            "roi": "ROI",
+            "maintenance_margin": "Сопровождающая маржа",
+            "delta": "Дельта",
+            "theta": "Тета",
+            "close_long_position": "Закрыть длинную позицию",
+            "close_short_position": "Закрыть короткую позицию",
+            "long": "Длинная",
+            "short": "Короткая",
+            "close_position": "Закрыть позицию",
+            "close_position_error": "Ошибка при закрытии позиции"
+        },
+        "EditOrderModal": {
+            "order_edited_header": "Заказ отредактирован",
+            "order_edited_subheader": "Ваш заказ успешно обновлен",
+            "contracts_filled_error": "{{orderAmount}} контрактов уже выполнено",
+            "total": "Всего",
+            "amount_filled": "Заполненная сумма",
+            "premiums_earned": "Заработанные премии",
+            "margin_required": "Требуемая маржа",
+            "buying_power": "Покупательная способность",
+            "position_leverage": "Плечо позиции",
+            "liquidation_price": "Цена ликвидации",
+            "available_balance": "Доступный баланс",
+            "position": "Позиция",
+            "long": "Длинная",
+            "short": "Короткая",
+            "update_order": "Обновить заказ",
+            "edit_order_error": "Не удается отредактировать заказ",
+            "buy": "Купить",
+            "sell": "Продать",
+            "call": "call",
+            "put": "put",
+            "limit": "Лимит",
+            "market": "Рынок"
+        },
+        "RemoveOrderModal": {
+            "order_edited_header": "Заказ удален",
+            "order_edited_subheader": "Ваш заказ был успешно удален",
+            "bid_price": "Цена предложения",
+            "contracts": "Контракты",
+            "total": "Всего",
+            "premium_earned": "Заработанная премия",
+            "margin_required": "Требуемая маржа",
+            "remove_bid": "Удалить ставку",
+            "remove_offer": "Удалить предложение",
+            "buy": "Купить",
+            "sell": "Продать",
+            "position": "Позиция",
+            "long": "Длинная",
+            "short": "Короткая",
+            "remove_order_error": "Не удается удалить заказ"
+        }
+    }
+}
