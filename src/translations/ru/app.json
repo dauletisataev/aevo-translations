@@ -1,7 +1,6 @@
 {
     "Header": {
         "AccountModal": {
-            "enable_trading": "Включить торговлю",
             "continue_onboarding": "Продолжить регистрацию",
             "deposit": "Депозит",
             "liquidations_in_progress": "Ликвидации в процессе",
@@ -13,7 +12,7 @@
             "estimated_send_time": "Предполагаемое время отправки",
             "estimated_receive_time": "Предполагаемое время получения",
             "n_hours": "{{hours}} час(а/ов)",
-            "n_minutes": "{{minutes}} минута(ы)",
+            "n_minutes": "{{minutes}} минут(ы)",
             "less_than_1_minute": "<1 минуты",
             "username": "Имя пользователя",
             "exchange_equity": "Капитал на бирже",
@@ -543,7 +542,7 @@
             "MobilePerpsSection": {
                 "price": "Цена",
                 "depth": "Глубина",
-                "orderbook": "Книга Ордеров",
+                "orderbook": "Книга заказов",
                 "history": "История",
                 "connect_wallet": "Подключить Кошелек",
                 "enable_trading": "Включить Торговлю",
@@ -558,7 +557,7 @@
         "TradeOrderbookSection": {
             "TradeOrderbookSection": {
                 "usd": "USD",
-                "orderbook": "Книга Ордеров",
+                "orderbook": "Книга заказов",
                 "trade_history": "История Торгов"
             }
         }
@@ -1316,7 +1315,7 @@
     "TicketDetails": {
         "TicketDetails": {
             "select_strike_price": "Пожалуйста, выберите страйк-цену",
-            "orderbook": "Стакан Заявок",
+            "orderbook": "Книга заказов",
             "data": "Данные",
             "payoff": "Выплата",
             "trades": "Сделки"
@@ -1346,6 +1345,254 @@
             "price_iv": "Цена / IV",
             "cumulative": "Накопительный",
             "size": "Размер"
+        }
+    },
+    "TradeForm": {
+        "Common": {
+            "continue_onboarding": "Продолжить Онбординг",
+            "enable_trading": "Включить Торговлю",
+            "connect_wallet": "Подключить Кошелек",
+            "liquidations_in_progress": "Ликвидации В Процессе",
+            "close_position": "Закрыть Позицию",
+            "contracts": "Контракты",
+            "limit_price": "Лимитная Цена",
+            "market_buy_failed": "Неудачная Покупка На Рынке",
+            "market_sell_failed": "Неудачная Продажа На Рынке",
+            "limit_buy_failed": "Неудачный Лимитный Заказ На Покупку",
+            "limit_sell_failed": "Неудачный Лимитный Заказ На Продажу",
+            "place_order_again": "Пожалуйста, Разместите Ваш Заказ Снова",
+            "buy_amount": "Количество Купленного",
+            "sell_amount": "Количество Проданного",
+            "buy": "Купить",
+            "sell": "Продать",
+            "market": "Рынок",
+            "limit": "Лимит",
+            "margin_balance": "Баланс Маржи",
+            "buying_power": "Покупательная Способность"
+        },
+        "MinifiedTabs": {
+            "trade_ticket": "Билет на Торговлю"
+        },
+        "OptionsTradeForm": {
+            "OptionsTradeForm": {
+                "total": "Итого",
+                "premiums_earned": "Заработанные Премии",
+                "margin_required": "Требуемая Маржа",
+                "available_balance": "Доступный Баланс",
+                "current_position": "Текущая Позиция",
+                "position_roi": "ROI Позиции",
+                "insufficient_liquidity": "Недостаточная Ликвидность Рынка",
+                "market_buy": "Рыночная Покупка",
+                "market_sell": "Рыночная Продажа",
+                "avg_price": "Ср. Цена",
+                "bid_placed": "Ставка Сделана",
+                "offer_placed": "Предложение Сделано",
+                "order_protection_triggered": "Защита Заказа Сработала",
+                "order_protection_desc_bid": "Защита сработала, потому что этот заказ заполнит ставку, которая находится за пределами защитного барьера заказа. Пожалуйста, ",
+                "order_protection_desc_offer": "Защита сработала, потому что этот заказ заполнит предложение, которое находится за пределами защитного барьера заказа. Пожалуйста, ",
+                "order_protection_desc_reduce_1": "уменьшите размер заказа",
+                "order_protection_desc_reduce_2": " до ",
+                "order_protection_desc_reduce_3": "{{amount}} контракт(а/ов) ",
+                "order_protection_desc_reduce_4": "или меньше для размещения заказа",
+                "order_protection_desc_try_limit_order_bid": "попробуйте разместить лимитный заказ на покупку.",
+                "order_protection_desc_try_limit_order_ask": "попробуйте разместить лимитный заказ на продажу.",
+                "long": "Длинная",
+                "short": "Короткая",
+                "place_order": "Разместить Заказ",
+                "select_strike_price": "Пожалуйста, выберите страйк-цену",
+                "trading": "Торговля",
+                "orderbook": "Книга заказов"
+            },
+            "FeeInfo": {
+                "fees": "Комиссии"
+            },
+            "Form": {
+                "number_of_contracts": "Количество Контрактов",
+                "price": "Цена"
+            }
+        },
+        "PerpsTradeForm": {
+            "PerpsTradeForm": {
+                "trigger_price": "Триггерная Цена",
+                "reduce_only": "Только Уменьшение",
+                "place_order_again": "Пожалуйста, разместите ваш заказ снова",
+                "market": "Рынок",
+                "limit": "Лимит",
+                "position_closed": "Позиция Закрыта",
+                "error_close_position": "Ошибка при закрытии позиции"
+            },
+            "Form": {
+                "limit_price": "Лимитная Цена",
+                "trigger_price": "Триггерная Цена",
+                "mark_price": "Рыночная Цена",
+                "order_size": "Размер Заказа",
+                "leverage": "Плечо",
+                "reduce_only": "Только Уменьшение"
+            },
+            "LimitOrderForm": {
+                "position": "Позиция",
+                "position_leverage": "Плечо Позиции",
+                "minimum_size_error": "Минимальный размер {{size}} {{asset}}",
+                "total": "Итого"
+            },
+            "MarketOrderForm": {
+                "position": "Позиция",
+                "position_leverage": "Плечо Позиции",
+                "minimum_size_error": "Минимальный размер {{size}} {{asset}}",
+                "total": "Итого",
+                "deselect_reduce_only": "Снять Отметку 'Только Уменьшение'",
+                "reduce_only_error_desc_1": "Вы не можете создать {{orderDirection}} {{orderType}} заказ, потому что ",
+                "reduce_only_error_desc_2_open_position_long": "у вас есть открытая длинная позиция",
+                "reduce_only_error_desc_2_open_position_short": "у вас есть открытая короткая позиция",
+                "reduce_only_error_desc_2_no_position": "у вас нет открытых позиций",
+                "reduce_only_error_desc_3_and": " и ",
+                "reduce_only_error_desc_4_reduce_only": "\"Только Уменьшение\"",
+                "reduce_only_error_desc_5": " выбрано. Для создания нового заказа вы должны снять отметку \"Только Уменьшение\".",
+                "insufficient_market_liquidity": "Недостаточная Рыночная Ликвидность",
+                "long": "Длинная",
+                "short": "Короткая",
+                "place_order": "Разместить Заказ"
+            },
+            "MarketDetails": {
+                "market_details": "Детали Рынка",
+                "learn_more": "Узнать Больше",
+                "min_contract_size": "Мин. Размер Контракта",
+                "min_notional_value": "Мин. Номинальная Стоимость",
+                "tick_size": "Размер Шага",
+                "settlement_asset": "Актив Расчета",
+                "avg_1h_funding": "Ср. 1ч Финансирование (за последние 24 часа)"
+            }
+        }
+    },
+    "TradingBottomBar": {
+        "TradingBottomBar": {
+            "connect_wallet": "Подключить Кошелек",
+            "enable_trading": "Включить Торговлю",
+            "continue_onboarding": "Продолжить Онбординг",
+            "no_positions": "У вас сейчас нет позиций",
+            "no_orders": "У вас сейчас нет заказов",
+            "no_history": "У вас сейчас нет истории",
+            "positions": "Позиции",
+            "orders": "Заказы",
+            "history": "История",
+            "perp_only": "{{asset}} только перп",
+            "options_only": "{{asset}} только опционы"
+        },
+        "PerpPosition": {
+            "close_position": "Закрыть Позицию",
+            "unrealized_pnl": "Нереализованная Прибыль и Убыток",
+            "avg_entry_price": "Ср. Цена Входа",
+            "leverage": "Плечо",
+            "margin": "Маржа",
+            "liquidation_price": "Цена Ликвидации"
+        },
+        "CompactPerpPosition": {
+            "long": "Длинная",
+            "short": "Короткая"
+        }
+    },
+    "TradingHeader": {
+        "OptionsTradingHeader": {
+            "open_interest": "Открытый Интерес",
+            "put_call": "Пут:Колл",
+            "put_call_ratio": "Отношение Пут/Колл",
+            "puts_open_interest": "Открытый Интерес Путов",
+            "calls_open_interest": "Открытый Интерес Коллов",
+            "daily_volume": "Объем за 24 часа",
+            "spot_daily_change": "{{asset}} Изменение Спот-цены за 24 часа"
+        },
+        "PerpsTradingHeader": {
+            "index_price": "Индексная Цена",
+            "mark_price": "Рыночная Цена",
+            "hourly_funding_rate": "1ч Ставка Финансирования",
+            "funding_rate_countdown": "Обратный Отсчет Ставки Финансирования",
+            "daily_volume": "Объем за 24 часа",
+            "open_interest": "Открытый Интерес",
+            "daily_change": "Изменение за 24 часа"
+        },
+        "Price": {
+            "spot": "Спот"
+        }
+    },
+    "TransactionHistory": {
+        "TransactionHistory": {
+            "action": "Действие",
+            "amount": "Сумма",
+            "time": "Время",
+            "in_progress": "В Процессе",
+            "no_transfers_history": "Нет Истории Переводов и Наград",
+            "rewards_received": "Полученные Награды",
+            "deposit": "Депозит",
+            "withdraw": "Вывод",
+            "send": "Отправить",
+            "receive": "Получить"
+        },
+        "TransactionDetailsModal": {
+            "rewards_received": "Полученные Награды",
+            "deposit_details": "Детали Депозита",
+            "withdraw_details": "Детали Вывода",
+            "receive_details": "Детали Получения",
+            "send_details": "Детали Отправки",
+            "reward_type": "Тип Награды",
+            "deposit_asset": "Депозитный Актив",
+            "withdraw_asset": "Актив для Вывода",
+            "receive_asset": "Получаемый Актив",
+            "send_asset": "Отправляемый Актив",
+            "withdraw_destination": "Назначение Вывода",
+            "deposit_origin": "Источник Депозита",
+            "amount": "Сумма",
+            "sender_address": "Адрес Отправителя",
+            "recipient_address": "Адрес Получателя",
+            "copied_address": "Скопированный Адрес",
+            "time_and_date": "Время и Дата",
+            "view_transaction": "Просмотреть Транзакцию {{network}}",
+            "program_details": "Детали Программы"
+        }
+    },
+    "UptimeMonitor": {
+        "UptimeMonitor": {
+            "maintenance_in_progress": "Техническое Обслуживание В Процессе",
+            "systems_outage": "Сбой в Системе",
+            "partial_systems_outage": "Частичный Сбой в Системе",
+            "systems_operational": "Системы в Рабочем Режиме"
+        },
+        "MaintenanceSchedule": {
+            "scheduled_at": "Техническое Обслуживание Запланировано на {{time}} по UTC {{date}}"
+        },
+        "CurrentTimeUTC": {
+            "utc": "UTC"
+        }
+    },
+    "utils": {
+        "order": {
+            "limit": "Лимит",
+            "market": "Рынок",
+            "stop_limit": "Стоп-лимит",
+            "stop_market": "Стоп-рынок",
+            "tp_limit": "Лимит Прибыли",
+            "tp_market": "Рынок Прибыли",
+            "tp_limit_short": "ЛП Лимит",
+            "tp_market_short": "ЛП Рынок"
+        },
+        "date": {
+            "one_month": "1 месяц назад",
+            "n_months": "{{n}} месяц(a/ев) назад",
+            "one_week": "1 неделя назад",
+            "n_weeks": "{{n}} недел(ь/и) назад",
+            "one_day": "1 день назад",
+            "n_days": "{{n}} дней назад",
+            "one_hour": "1 час назад",
+            "n_hours": "{{n}} час(а/ов) назад",
+            "one_min": "1 минуту назад",
+            "n_mins": "{{n}} минут(ы) назад",
+            "just_now": "Только",
+            "short_week": "{{n}}Н",
+            "short_day": "{{n}}Д",
+            "short_hour": "{{n}}Ч",
+            "short_min": "{{n}}М",
+            "short_sec": "{{n}}С",
+            "short_one_min": "1М",
+            "expired": "Истекло"
         }
     }
 }

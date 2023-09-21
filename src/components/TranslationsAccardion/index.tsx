@@ -1,5 +1,6 @@
 "use client";
 import * as React from "react";
+import { CodeBlock, a11yDark } from "react-code-blocks";
 
 interface ITranslationsAccardionProps {
   enTransaltions: any;
@@ -90,8 +91,29 @@ const renderTranslation = (en: any, ru: any, name?: string) => {
         return (
           <div key={index} className="border border-gray-100 p-2">
             <strong>{key}:</strong>
-            <div>EN: {valueEn}</div>
-            <div>RU: {valueRu || "---"}</div>
+            <div>
+              EN:{" "}
+              <CodeBlock
+                text={valueEn}
+                showLineNumbers={false}
+                theme={a11yDark}
+                language="javascript"
+              />
+            </div>
+            <div>
+              RU:{" "}
+              {valueRu ? (
+                <CodeBlock
+                  text={valueRu}
+                  showLineNumbers={false}
+                  theme={a11yDark}
+                />
+              ) : (
+                <span className="bg-red-500 text-white px-2 py-1 rounded">
+                  Not Translated
+                </span>
+              )}
+            </div>
           </div>
         );
       }
