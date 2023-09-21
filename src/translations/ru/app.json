@@ -419,5 +419,192 @@
         "liquidation_bullet_4_1": "С вас будет взята",
         "liquidation_bullet_4_2": "комиссия за ликвидацию в размере 0,50%",
         "liquidation_bullet_4_3": "от номинальной стоимости вашей позиции"
+    },
+    "MarketData": {
+        "24h_volume": "Объем за 24Ч",
+        "total_oi": "Общий OI"
+    },
+    "MarketSelectionDropdown": {
+        "prelaunch": "Предзапуск",
+        "options": "Опционы",
+        "perpetuals": "Перпетуалы",
+        "search_markets": "Поиск рынков",
+        "all_markets": "Все рынки",
+        "no_search_results": "Нет результатов поиска"
+    },
+    "MarketSelectionCell": {
+        "oi": "OI"
+    },
+    "MMPTriggeredModal": {
+        "title": "MMP Сработал",
+        "mmp_triggered_desc_1": "Ваш аккаунт был заморожен, потому что",
+        "mmp_triggered_desc_2": "лимиты были превышены",
+        "go_to_settings": "Перейти в настройки MMP"
+    },
+    "MobileFooter": {
+        "trading": "Торговля",
+        "portfolio": "Портфель"
+    },
+    "OFACModal": {
+        "title": "Ограничение доступа",
+        "ofac_desc_1": "Продолжая, вы подтверждаете следующее",
+        "ofac_desc_2": "Вы не являетесь резидентом Беларуси, Кубы, КНДР, ДР Конго, Ирана, Ирака, Ливана, Ливии, Мали, Мьянмы, Никарагуа, Сомали, Южного Судана, Судана, Сирии или Украины.",
+        "ofac_desc_3": "Вы не будете использовать программное обеспечение или сетевые методы, включая использование виртуальной частной сети (VPN), чтобы изменить свой IP-адрес или каким-либо образом обойти или попытаться обойти это запрещение.",
+        "continue": "Продолжить"
+    },
+    "OptionFilter": {
+        "call_option": "Call Опцион",
+        "put_option": "Put Опцион",
+        "select_strike_price_desc": "Пожалуйста, выберите страйк-цену",
+        "put": "put",
+        "call": "call",
+        "type": "Тип",
+        "expiry": "Истечение",
+        "strike": "Страйк",
+        "close": "Закрыть",
+        "option_type": "Тип Опциона",
+        "strike_price": "Страйк-Цена"
+    },
+    "OptionsChain": {
+        "CurrentSpotSection": {
+            "current_spot": "Текущий {{asset}} Спот"
+        },
+        "MobileOptionsChain": {
+            "MobileOptionsChain": {
+                "buy": "Покупка",
+                "sell": "Продажа",
+                "calls": "Коллы",
+                "puts": "Путы"
+            },
+            "OptionRow": {
+                "iv": "IV",
+                "size": "Размер",
+                "delta": "Дельта",
+                "price": "Цена"
+            }
+        },
+        "OptionsTable": {
+            "headers": {
+                "bid_size": "Размер (Предложение)",
+                "bid_iv": "Предложение / IV",
+                "mark_price": "Индикативная Цена",
+                "ask_iv": "Спрос / IV",
+                "ask_size": "Размер (Спрос)",
+                "delta": "Дельта",
+                "oi": "OI",
+                "position": "Позиция"
+            },
+            "OptionsTable": {
+                "calls": "Коллы",
+                "puts": "Путы",
+                "strike": "Страйк",
+                "days": "Дни",
+                "day": "День"
+            }
+        },
+        "OptionsChain": {
+            "buy": "Покупка",
+            "sell": "Продажа",
+            "calls": "Коллы",
+            "puts": "Путы"
+        }
+    },
+    "OptionsHistory": {
+        "all_trades": "Все Сделки",
+        "calls": "Коллы",
+        "puts": "Путы",
+        "last_250_trades": "Последние 250 Сделок",
+        "last_500_trades": "Последние 500 Сделок",
+        "last_1000_trades": "Последние 1000 Сделок",
+        "size": "Размер",
+        "contract": "Контракт",
+        "expiry": "Истечение",
+        "strike": "Страйк",
+        "price": "Цена",
+        "iv": "IV",
+        "time_and_date": "Время и Дата",
+        "no_history": "Нет истории торгов на рынке"
+    },
+    "Orders": {
+        "iv": "IV",
+        "market": "Рынок",
+        "side": "Сторона",
+        "type": "Тип",
+        "size_fill": "Размер / Заполнение",
+        "price_trigger": "Цена / Триггер",
+        "initial_margin": "Начальная Маржа",
+        "time": "Время",
+        "buy": "Покупка",
+        "sell": "Продажа",
+        "limit": "Лимит"
+    },
+    "Perps": {
+        "MobilePerpsSection": {
+            "MobilePerpsSection": {
+                "price": "Цена",
+                "depth": "Глубина",
+                "orderbook": "Книга Ордеров",
+                "history": "История",
+                "connect_wallet": "Подключить Кошелек",
+                "enable_trading": "Включить Торговлю",
+                "continue_onboarding": "Продолжить Ознакомление",
+                "trade": "Торговать"
+            }
+        },
+        "PerpsOrderbookAndChart": {
+            "price_chart": "График Цен",
+            "depth_chart": "График Глубины"
+        },
+        "TradeOrderbookSection": {
+            "TradeOrderbookSection": {
+                "usd": "USD",
+                "orderbook": "Книга Ордеров",
+                "trade_history": "История Торгов"
+            }
+        }
+    },
+    "PnLCardModal": {
+        "position": "Позиция",
+        "long": "Лонг",
+        "short": "Шорт",
+        "entry_price": "Цена Входа",
+        "current_price": "Текущая Цена",
+        "exit_price": "Цена Выхода",
+        "share_preview": "Поделиться Превью"
+    },
+    "PortfolioSettings": {
+        "Collateral": {
+            "asset": "Актив",
+            "balance": "Баланс",
+            "composition": "Состав",
+            "value": "Стоимость",
+            "actions": "Действия",
+            "deposit": "Депозит",
+            "withdraw": "Вывод",
+            "transfer": "Перевод",
+            "collateral": "Обеспечение"
+        },
+        "FundingHistoryFilter": {
+            "all_funding": "Все Финансирования",
+            "received": "Получено",
+            "paid": "Оплачено"
+        },
+        "Greeks": {
+            "greeks": "Греки",
+            "delta": "Дельта",
+            "vega": "Вега",
+            "gamma": "Гамма",
+            "rho": "Ро",
+            "theta": "Тета"
+        },
+        "MarginHealth": {
+            "margin_health": "Здоровье Маржи",
+            "im_utilization": "Использование IM",
+            "mm_utilization": "Использование MM",
+            "im_used": "Использованная Начальная Маржа",
+            "mm_used": "Использованная Маржа Обеспечения",
+            "equity_balance": "Баланс Собственного Капитала",
+            "available_balance": "Доступный Баланс"
+        }
     }
 }
