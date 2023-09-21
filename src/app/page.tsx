@@ -6,6 +6,9 @@ import ApiErrorsRu from "../translations/ru/apiErrors.json";
 import FormErrorsRu from "../translations/ru/formErrors.json";
 import AppEn from "../translations/en/app.json";
 import AppRu from "../translations/ru/app.json";
+import TooltipsEn from "../translations/en/tooltips.json";
+import TooltipsRu from "../translations/ru/tooltips.json";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
@@ -22,7 +25,7 @@ export default function Home() {
           >
             for{" "}
             <h1 className="text-2xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500 dark:from-blue-300 dark:to-green-300">
-              AVEO
+              AEVO
             </h1>
           </a>
         </div>
@@ -37,6 +40,11 @@ export default function Home() {
           name="Api errors"
           enTransaltions={ApiErrorsEn}
           ruTransaltions={ApiErrorsRu}
+        />
+        <TranslationsAccardion
+          name="Tooltips"
+          enTransaltions={TooltipsEn}
+          ruTransaltions={TooltipsRu}
         />
         <TranslationsAccardion
           name="App"

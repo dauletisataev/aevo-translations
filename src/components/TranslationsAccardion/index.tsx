@@ -38,13 +38,17 @@ const countTranslations = (en: any, ru: any, parentKey: string = "") => {
   return { total: totalCount, translated: translatedCount };
 };
 
-const renderTranslation = (en: any, ru: any) => {
+const renderTranslation = (en: any, ru: any, name?: string) => {
   return Object.keys(en).map((key, index) => {
     const valueEn = en[key];
     const valueRu = ru[key];
 
     if (typeof valueEn === "object") {
-      const { total, translated } = countTranslations(valueEn, valueRu || {});
+      const { total, translated } = countTranslations(
+        valueEn,
+        valueRu || {},
+        name
+      );
       const completionPercentage = ((translated / total) * 100).toFixed(2);
 
       return (
