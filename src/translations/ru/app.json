@@ -733,5 +733,50 @@
                 "call": "Call"
             }
         }
+    },
+    "Positions": {
+        "iv": "IV",
+        "delta": "Дельта",
+        "theta": "Тета",
+        "market": "Рынок",
+        "side": "Сторона",
+        "contracts": "Контракты",
+        "avg_entry_price": "Ср. Цена Входа",
+        "position_value": "Стоимость Позиции",
+        "mark_price": "Рыночная Цена",
+        "pnl": "PnL",
+        "maintenance_margin": "Обеспечительная Маржа",
+        "summary": "Обзор",
+        "long": "Лонг",
+        "short": "Шорт"
+    },
+    "ProfitChart": {
+        "asset_spot": "{{asset}} Спот",
+        "strike": "Страйк"
+    },
+    "SelectMultichainNetwork": {
+        "ethereum": "Ethereum",
+        "optimism": "Optimism",
+        "arbitrum": "Arbitrum",
+        "unknown_network": "Неизвестная Сеть"
+    },
+    "SettingsModal": {
+        "your_position": "Ваша Позиция",
+        "bid_iv": "Bid IV",
+        "ask_iv": "Ask IV",
+        "delta": "Дельта",
+        "mark_price": "Рыночная Цена",
+        "order_placed": "Заказ Размещён",
+        "order_filled": "Заказ Исполнен",
+        "order_cancelled": "Заказ Отменён",
+        "errors": "Ошибки",
+        "options_chain_desc": "Настройка отображаемых колонок в цепочке опционов",
+        "sfx_desc": "Настройка звуковых эффектов для определённых событий",
+        "language_desc": "Выбор языка",
+        "trade_settings": "Настройки Торговли",
+        "sound_effects": "Звуковые Эффекты",
+        "options_chain": "Цепочка Опционов",
+        "sfx": "Звуковые Эффекты",
+        "language": "Язык"
     }
 }
