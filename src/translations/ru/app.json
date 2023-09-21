@@ -100,7 +100,7 @@
             "partial_liquidity_warning": "Ваша позиция может быть закрыта только частично из-за недостатка ликвидности",
             "contracts": "Контракты",
             "avg_entry_price": "Средн. цена входа",
-            "unrealized_pnl": "Нереализованная прибыль и убыток",
+            "unrealized_pnl": "Нереализованная PnL",
             "roi": "ROI",
             "maintenance_margin": "Сопровождающая маржа",
             "delta": "Дельта",
@@ -973,7 +973,7 @@
                     "long": "Лонг",
                     "short": "Шорт",
                     "size": "Размер",
-                    "pnl": "Прибыль и убыток"
+                    "pnl": "PnL"
                 },
                 "MobileTradeHistoryTab": {
                     "no_history_desc": "У вас нет истории сделок",
@@ -1096,7 +1096,7 @@
             "price": "Цена",
             "order_type": "Тип Заказа",
             "trade_type": "Тип Сделки",
-            "pnl": "Прибыль и Убыток",
+            "pnl": "PnL",
             "fees": "Комиссии",
             "date_time": "Дата и Время",
             "trade_history": "История Сделок",
@@ -1113,6 +1113,239 @@
         },
         "TransactionHistoryTab": {
             "transfers_and_rewards": "Переводы и Вознаграждения"
+        }
+    },
+    "TradeHistory": {
+        "TradeHistory": {
+            "iv": "IV",
+            "market": "Рынок",
+            "side": "Сторона",
+            "type": "Тип",
+            "size": "Размер",
+            "price": "Цена",
+            "order_type": "Тип Заказа",
+            "realized_pnl": "Реализованная PnL",
+            "time": "Время",
+            "no_trade_history": "У вас нет истории сделок",
+            "buy": "Купить",
+            "sell": "Продать",
+            "trade": "Сделка",
+            "liquidation": "Ликвидация",
+            "settlement": "Расчет",
+            "funding": "Финансирование",
+            "limit": "Лимит"
+        }
+    },
+    "shared": {
+        "BalanceMarginUtilization": {
+            "equity": "Капитал",
+            "im_utilization": "Использование ИМ",
+            "mm_utilization": "Использование ММ",
+            "im": "ИМ",
+            "mm": "ММ"
+        },
+        "AccountDropdown": {
+            "mmp_triggered": "Сработал MMP",
+            "view_transfers_in_progress": "Посмотреть Текущие Переводы",
+            "connect_wallet": "Подключить Кошелек",
+            "pm": "ПМ"
+        },
+        "ClosePositionOverlayInfo": {
+            "bid": "Предложение",
+            "ask": "Запрос",
+            "offer": "Предложение",
+            "iv": "IV",
+            "order_protection_desc_1": "Защита заказа сработала, потому что ваша позиция будет закрыта рыночным ордером, который заполняет {{side}}, которая ниже на {{markPercentage}}% от рыночной цены.",
+            "order_protection_desc_2": "Чтобы безопасно уменьшить размер вашей позиции, обратитесь к стакану и попробуйте разместить заказ вручную в торговом билете.",
+            "no_liquidity_desc": "На стакане нет ликвидности. Закрытие этой позиции может не удасться.",
+            "close_position": "Закрыть Позицию",
+            "order_protection_triggered": "Сработала Защита Заказа",
+            "cancel": "Отменить",
+            "sufficient_liquidity_desc_1": "Ваша позиция будет закрыта по лучшей {{side}} в стакане",
+            "sufficient_liquidity_desc_2": "что приведет к ожидаемому",
+            "profit": "прибыли",
+            "loss": "убытку",
+            "of": "от",
+            "sufficient_blend_liquidity_desc": "Из-за ограничений на ликвидность в стакане, ваша позиция будет закрыта по средней цене",
+            "insufficient_blend_liquidity_desc": "Из-за недостатка ликвидности в стакане, ваша позиция будет частично закрыта по средней цене",
+            "blend_liquidity_desc_2": "что приведет к ожидаемому"
+        },
+        "DepositPendingModal": {
+            "view_transaction": "Посмотреть Транзакцию"
+        },
+        "MobileNavigationMenu": {
+            "docs": "Документы",
+            "api_reference": "Справочник API",
+            "help_centre": "Центр Помощи",
+            "about": "О нас",
+            "twitter": "Твиттер",
+            "discord": "Discord",
+            "github": "Github",
+            "media_kit": "Пресс-кит",
+            "blog": "Блог",
+            "otc": "Внебиржевая Торговля"
+        },
+        "MultiSelectAssetDropdown": {
+            "asset": "Актив",
+            "all": "Все",
+            "selected": "Выбрано"
+        },
+        "NotificationPanel": {
+            "notifications": "Уведомления",
+            "mark_all_as_read": "Отметить все как прочитанные",
+            "no_notifications": "У вас нет уведомлений",
+            "deposit_complete": "Депозит Завершен",
+            "deposit_complete_desc": "{{asset}} теперь доступен для торговли",
+            "transfer_received": "Перевод Получен",
+            "transfer_received_desc": "Получено {{asset}} от {{address}}",
+            "program_received": "Получена {{programName}}",
+            "program_received_desc_1": "Вы получили {{asset}} в качестве вознаграждения за участие в программе {{programName}}. Смотреть",
+            "program_received_desc_2": "детали программы",
+            "trading_credits_received": "Получены Торговые Кредиты в USDC",
+            "trading_credits_received_desc": "Вы получили {{asset}} в торговых кредитах в качестве вознаграждения за депозит 100 USDC или больше.",
+            "default_received_desc": "Получено {{asset}} как часть {{programName}}",
+            "withdrawal_complete": "Вывод Завершен",
+            "withdrawal_complete_desc": "{{asset}} был снят с вашего счета",
+            "account_unfrozen": "Счет Разморожен",
+            "account_unfrozen_desc": "Ваш счет был разморожен",
+            "mmp_enabled": "MMP Включен",
+            "mmp_enabled_desc": "MMP успешно включен",
+            "mmp_disabled": "MMP Отключен",
+            "mmp_disabled_desc": "MMP успешно отключен",
+            "mmp_triggered": "Сработал MMP",
+            "liquidation_mode": "Режим Ликвидации",
+            "liquidation_mode_desc": "Ваш счет теперь в режиме ликвидации, так как использование обеспечительного капитала превысило 100%",
+            "liquidations_completed": "Ликвидации Завершены",
+            "liquidations_completed_desc_1": "Ваш счет был обременен комиссией за ликвидацию в размере {{fee}} USDC и",
+            "liquidations_completed_desc_2_single": "1 позиция была ликвидирована",
+            "liquidations_completed_desc_2_plural": "{{count}} позиций были ликвидированы",
+            "bid_filled": "Заполненное Предложение",
+            "ask_filled": "Заполненный Запрос",
+            "contracts_at": "контрактов по",
+            "new_trader_referred": "Новый Трейдер Приглашен",
+            "new_trader_referred_desc": "Новый трейдер присоединился к Aevo, используя ваш реферальный код. Вы начнете зарабатывать {{commission}}% от всех сборов, сгенерированных трейдером.",
+            "trading_fee_discount": "Скидка на Торговую Комиссию Разблокирована",
+            "trading_fee_discount_desc": "Ваша скидка в {{commission}}% на все торговые комиссии была разблокирована с использованием реферального кода",
+            "short_settlement": "Краткосрочный Расчет",
+            "long_settlement": "Долгосрочный Расчет",
+            "contracts_bought_desc": "срок действия купленных вами контрактов истек",
+            "contracts_sold_desc": "срок действия проданных вами контрактов истек",
+            "in_the_money": "в деньгах",
+            "out_the_money": "вне денег",
+            "realized_profit_desc": "что привело к реализованной прибыли",
+            "realized_loss_desc": "что привело к реализованному убытку",
+            "email_verified": "Адрес Электронной Почты Подтвержден",
+            "email_verified_desc": "Ваш адрес электронной почты был подтвержден, и теперь вы можете получать уведомления по электронной почте для включенных событий"
+        },
+        "Pagination": {
+            "showing": "Показано",
+            "out_of": "из",
+            "items": "элементов",
+            "items_per_page": "Элементов на странице"
+        },
+        "Toggle": {
+            "on": "Включено",
+            "off": "Выключено"
+        },
+        "ViewDetailsModal": {
+            "PositionDetailsModal": {
+                "error_close_position": "Ошибка при закрытии позиции",
+                "unrealized_pnl": "Нереализованная PnL",
+                "side": "Сторона",
+                "long": "Длинная",
+                "short": "Короткая",
+                "contracts": "Контракты",
+                "avg_entry_price": "Средняя Цена Входа",
+                "total": "Итого",
+                "maintenance_margin": "Обеспечительная Маржа",
+                "leverage": "Плечо",
+                "liquidation_price": "Цена Ликвидации",
+                "delta": "Дельта",
+                "theta": "Тета",
+                "close_position": "Закрыть Позицию"
+            },
+            "FundingDetailsModal": {
+                "side": "Сторона",
+                "contracts": "Контракты",
+                "funding_rate": "Ставка Финансирования",
+                "payment": "Платеж",
+                "mark_price": "Рыночная Цена",
+                "date_and_time": "Дата и Время",
+                "trade_id": "ID Сделки",
+                "copied_trade_id": "ID Сделки Скопирован"
+            },
+            "MarketHeader": {
+                "mark_price": "Рыночная Цена"
+            },
+            "OrderDetailsModal": {
+                "side": "Сторона",
+                "order_type": "Тип Заказа",
+                "reduce_only": "Только Уменьшение",
+                "order_size": "Размер Заказа",
+                "filled": "Заполнено",
+                "price": "Цена",
+                "initial_margin": "Начальная Маржа",
+                "date_and_time": "Дата и Время",
+                "order_id": "ID Заказа",
+                "copied_order_id": "ID Заказа Скопирован",
+                "yes": "Да",
+                "no": "Нет",
+                "edit_order": "Изменить Заказ",
+                "remove_order": "Удалить Заказ"
+            },
+            "TradeDetailsModal": {
+                "close_short": "Закрыть Шорт",
+                "close_long": "Закрыть Лонг",
+                "open_long": "Открыть Лонг",
+                "open_short": "Открыть Шорт",
+                "side": "Сторона",
+                "type": "Тип",
+                "settlement_price": "Цена Расчета",
+                "size": "Размер",
+                "price": "Цена",
+                "order_type": "Тип Заказа",
+                "realized_pnl": "Реализованная PnL",
+                "spot_price": "Цена Спот",
+                "fees": "Комиссии",
+                "date_time": "Дата и Время",
+                "trade_id": "ID Сделки",
+                "copied_trade_id": "ID Сделки Скопирован"
+            }
+        }
+    },
+    "TicketDetails": {
+        "TicketDetails": {
+            "select_strike_price": "Пожалуйста, выберите страйк-цену",
+            "orderbook": "Стакан Заявок",
+            "data": "Данные",
+            "payoff": "Выплата",
+            "trades": "Сделки"
+        },
+        "PayoffChart": {
+            "payoff": "Выплата",
+            "time_to_expiry": "Время до Истечения"
+        },
+        "Greeks": {
+            "delta": "Дельта",
+            "vega": "Вега",
+            "gamma": "Гамма",
+            "rho": "Ро",
+            "theta": "Тета"
+        },
+        "TradeOrderbook": {
+            "your_bid": "Ваше Предложение",
+            "your_ask": "Ваш Запрос",
+            "price": "Цена",
+            "contracts_offered": "Предложенные Контракты",
+            "order_protection_barrier": "Защитный Барьер Заказа",
+            "order_protection_barrier_explanation_1": "Рыночные ордера не будут заполнять {{type}}, которые находятся за пределами защитного барьера заказа.",
+            "order_protection_barrier_explanation_2": "Нижний защитный барьер рассчитывается как:",
+            "order_protection_barrier_explanation_3": "Рыночная Цена - Макс(Рыночная Цена * {{markCollar}}, {{indexCollar}} * Индексная Цена)",
+            "order_protection_barrier_explanation_4": "Верхний защитный барьер рассчитывается как:",
+            "order_protection_barrier_explanation_5": "Рыночная Цена + Макс(Рыночная Цена * {{markCollar}}, {{indexCollar}} * Индексная Цена)",
+            "price_iv": "Цена / IV",
+            "cumulative": "Накопительный",
+            "size": "Размер"
         }
     }
 }
