@@ -221,5 +221,96 @@
             "unsupported_network_desc": "Похоже, вы подключены к не поддерживаемой сети. Пожалуйста, переключитесь на поддерживаемую сеть.",
             "select_supported_network": "Выберите поддерживаемую сеть"
         }
+    },
+    "DepositWithdrawModal": {
+        "TransferModal": {
+            "ConfirmAddressModal": {
+                "confirmation_desc": "Продолжая, вы подтверждаете, что у вас есть доступ к следующему адресу получателя на Aevo и осознаете, что эта транзакция необратима:",
+                "recipient_address": "Aevo Адрес Получателя",
+                "next": "Далее"
+            },
+            "ConfirmTransferModal": {
+                "you_sent": "Вы отправили",
+                "failed_to_send": "Не удалось отправить",
+                "you_are_sending": "Вы отправляете",
+                "transfer": "Перевод",
+                "sign_message": "Подпишите сообщение в вашем кошельке",
+                "signed": "Подписано",
+                "close": "Закрыть",
+                "try_again": "Попробовать снова",
+                "to": "Кому"
+            },
+            "TransferModal": {
+                "transfer_asset": "Перевести {{asset}}",
+                "transfer_completed": "Перевод Завершен",
+                "transfer_failed": "Перевод Не Удался",
+                "confirm_transfer": "Подтвердить Перевод",
+                "address_confirmation": "Подтверждение Адреса"
+            },
+            "InitialStateModal": {
+                "deposit_failed": "Депозит Не Удался",
+                "switch_to": "Переключиться на {{chain}}",
+                "transfers": "Переводы",
+                "transfers_desc": "Переводы мгновенные и бесплатные, происходят напрямую на нашем пользовательском Layer 2 и не взаимодействуют с Ethereum Mainnet.",
+                "recipient_address": "Aevo Адрес Получателя",
+                "amount": "Сумма",
+                "max": "Макс",
+                "next": "Далее",
+                "exchange_balance": "Баланс на Бирже",
+                "transferable_balance": "Переводимый Баланс",
+                "recipient_address_access_desc": "ВАЖНО: Убедитесь, что у вас есть доступ к адресу получателя на Aevo."
+            }
+        },
+        "DepositModal": {
+            "initiating_deposit": "Инициация Депозита",
+            "eta": "Примерное Время - {{time}}",
+            "switch_to": "Переключиться на {{chain}}",
+            "permit": "Разрешить",
+            "approve": "Одобрить",
+            "deposit": "Депозит",
+            "deposits": "Депозиты",
+            "deposit_from": "Депозит С",
+            "deposit_asset": "Внести {{asset}}",
+            "insufficient_eth_balance": "Недостаточно Баланса ETH",
+            "ready_to_deposit": "Ваши Средства Теперь Готовы к Депозиту",
+            "approval_failed": "Одобрение Не Прошло",
+            "no_bridge_capacity": "Нет мостовой мощности для поддержки вашего депозита из {{currentChain}}. Пожалуйста, внесите депозит из ${{otherChains}}.",
+            "insufficient_bridge_capacity": "Недостаточная мостовая мощность для поддержки Вашего депозита из {{chain}}.",
+            "reduce_deposit_size": "Пожалуйста, уменьшите размер Вашего депозита до {{size}} или внесите депозит из {{otherChains}}.",
+            "deposit_initiated": "Депозит Инициирован",
+            "deposit_cancelled": "Депозит Отменен",
+            "deposit_failed": "Депозит Не Удался",
+            "how_deposits_work_subheader": "Вы можете внести {{asset}} с Ethereum Mainnet и Optimism, или USDC.e с Arbitrum, и ваши средства будут зачислены на ваш счет второго уровня Aevo в течение нескольких минут. Как только ваш счет пополнен, вы можете начать торговлю немедленно.",
+            "amount": "Сумма",
+            "max": "Макс",
+            "or": "или",
+            "wallet_balance": "Баланс Кошелька",
+            "estimated_deposit_time": "Примерное Время Депозита",
+            "deposit_fee": "Комиссия за Депозит",
+            "deposit_initiated_desc": "{{amount}} будет зачислено примерно через {{time}}"
+        },
+        "WithdrawModal": {
+            "switch_to": "Переключиться на {{chain}}",
+            "withdrawals": "Выводы",
+            "withdraw": "Вывести",
+            "withdrawal_cancelled": "Вывод Отменен",
+            "withdrawal_failed": "Вывод Не Удался",
+            "withdrawal_pending": "Вывод В Ожидании",
+            "withdrawal_pending_desc": "Вывод {{amount}} будет обработан примерно через {{time}}",
+            "no_bridge_capacity": "Нет мостовой мощности для поддержки вашего вывода на {{currentChain}}. Пожалуйста, выведите на ${{otherChains}}.",
+            "insufficient_bridge_capacity": "Недостаточная мостовая мощность для поддержки вашего вывода на {{chain}}.",
+            "reduce_withdrawal_size": "Пожалуйста, уменьшите размер Вашего вывода до {{size}} или выведите на {{otherChains}}.",
+            "withdrawal_availability_desc_1": "Вы можете вывести {{asset}} с Aevo на Ethereum Mainnet и Optimism, или USDC.e с Arbitrum.",
+            "withdrawal_availability_desc_2": "Выводы обычно занимают до 2 часов из-за перехода между Aevo L2 и Ethereum L1.",
+            "eth_to_weth_desc": "Депозиты ETH выводятся как токены WETH (Wrapped ETH).",
+            "withdraw_to": "Вывести на",
+            "amount": "Сумма",
+            "max": "Макс",
+            "exchange_balance": "Баланс на Бирже",
+            "credit_balance": "Кредитный Баланс",
+            "withdrawable_balance": "Выводимый Баланс",
+            "total_exchange_equity": "Общая Капитализация Биржи",
+            "eta": "Примерное Время Вывода"
+        }
     }
 }
