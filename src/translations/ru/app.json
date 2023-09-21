@@ -778,5 +778,341 @@
         "options_chain": "Цепочка Опционов",
         "sfx": "Звуковые Эффекты",
         "language": "Язык"
+    },
+    "pages": {
+        "APIKeysPage": {
+            "create": "Создать",
+            "create_api_key": "Создать API-ключ",
+            "created_api_key": "API-ключ создан",
+            "create_api_key_desc": "Пожалуйста, введите имя для вашего нового API-ключа",
+            "enable_trading": "Включить Торговлю",
+            "connect_wallet": "Подключить Кошелек",
+            "copied_secret_desc": "API Secret скопирован в буфер обмена",
+            "copied_key_desc": "API-ключ скопирован в буфер обмена",
+            "remove_api_key": "Удалить API-ключ",
+            "removed_api_key": "API-ключ удален",
+            "error": "Ошибка",
+            "remove": "Удалить",
+            "remove_key_desc": "Вы уверены, что хотите удалить этот API-ключ?",
+            "api_keys": "API-ключи",
+            "docs_desc_1": "REST и Websocket API Aevo предназначены для продвинутых пользователей и позволяют проводить программные торговые операции. Нажмите",
+            "docs_desc_2": "здесь",
+            "docs_desc_3": "чтобы просмотреть документацию API Aevo.",
+            "name": "Имя",
+            "api_key": "API-ключ",
+            "api_secret": "API Secret"
+        },
+        "EmailPage": {
+            "email_preference_updated": "Настройки электронной почты обновлены",
+            "email_preference_updated_desc": "Настройки электронной почты успешно обновлены",
+            "email_verified": "Адрес электронной почты подтвержден",
+            "email_verified_desc": "Ваш адрес электронной почты был подтвержден, и теперь вы можете получать уведомления на электронную почту для разрешенных событий",
+            "emails_unsubscribed": "Отписка от писем",
+            "emails_unsubscribed_desc": "Вы больше не будете получать уведомления по электронной почте",
+            "email_verification": "Подтверждение Email",
+            "unsubscribe_emails": "Отписаться от писем",
+            "invalid_email": "Недействительный адрес электронной почты",
+            "verify_email": "Подтвердить Email",
+            "update_email": "Обновить Email",
+            "resend_verification": "Повторно отправить подтверждение",
+            "enable_trading": "Включить Торговлю",
+            "connect_wallet": "Подключить Кошелек",
+            "check_email_desc": "Пожалуйста, проверьте вашу электронную почту для письма от Aevo (do-not-reply@aevo.xyz) с темой «Aevo - Подтвердите свой Email»",
+            "email_notifications": "Уведомления по Email",
+            "email_notifications_desc": "Включить уведомления по электронной почте о ликвидациях, предупреждениях по обеспечительному обязательству и успешных рефералах на Aevo.",
+            "your_email_address": "Ваш адрес электронной почты",
+            "email_address": "Адрес электронной почты",
+            "liquidations": "Ликвидации",
+            "liquidations_desc": "Получать уведомление на электронную почту, когда ваш аккаунт переходит в режим ликвидации.",
+            "mm_utilization": "Использование обеспечительного обязательства",
+            "mm_utilization_desc": "Получать уведомление, когда ваше обеспечительное обязательство превышает 80%.",
+            "referrals": "Рефералы",
+            "referrals_desc": "Получать уведомления, когда новый трейдер присоединяется к Aevo с использованием вашего реферального кода."
+        },
+        "FundingHistoryTab": {
+            "market": "Рынок",
+            "funding_rate": "Ставка финансирования",
+            "date_time": "Дата и время",
+            "all_perps": "Все перпетуумы",
+            "aevo_public_funding_history": "История публичного финансирования Aevo"
+        },
+        "HistoricalPage": {
+            "settlement_history": "История расчетов",
+            "funding_history": "История финансирования"
+        },
+        "MMPPage": {
+            "mmp_enabled": "MMP активирован",
+            "mmp_disabled": "MMP деактивирован",
+            "mmp_enabled_desc": "MMP успешно активирован",
+            "mmp_disabled_desc": "MMP успешно деактивирован",
+            "missing_param_desc": "Все поля параметров должны быть заполнены",
+            "mmp": "Защита маркет-мейкера",
+            "mmp_desc_1": "Автоматизированный метод для помощи маркет-мейкерам в управлении рисками через настраиваемый набор параметров. Нажмите",
+            "mmp_desc_2": "здесь",
+            "mmp_desc_3": "чтобы просмотреть документацию API Aevo.",
+            "frozen_desc": "Ваш аккаунт был заморожен, потому что",
+            "enable_mmp": "Включить MMP",
+            "enable_mmp_desc": "Чтобы разморозить ваш аккаунт, вам нужно включить MMP и сохранить ваши обновленные параметры.",
+            "interval": "Интервал",
+            "interval_desc_1": "Интервал в",
+            "interval_desc_2": "секундах",
+            "interval_desc_3": "применяется для измерения параметров лимита количества и дельта-лимита",
+            "frozen": "Замороженный",
+            "frozen_desc_1": "Продолжительность в",
+            "frozen_desc_2": "секундах",
+            "frozen_desc_3": "в течение которого аккаунт будет заморожен (если установлено значение 0, требуется ручная перезагрузка)",
+            "unfrozen_desc": "Ваш аккаунт будет разморожен через",
+            "amount_limit": "Лимит количества",
+            "amount_limit_desc_1": "Максимальное количество",
+            "amount_limit_desc_2": "контрактов",
+            "amount_limit_desc_3": "которое может быть исполнено в течение интервала до того, как аккаунт будет заморожен",
+            "delta_limit": "Дельта-лимит",
+            "delta_limit_desc_1": "Максимальное абсолютное изменение в",
+            "delta_limit_desc_2": "дельте",
+            "delta_limit_desc_3": "в течение интервала до того, как аккаунт будет заморожен",
+            "saved": "Сохранено",
+            "save_and_reenable_mmp": "Сохранить и повторно включить MMP",
+            "save_changes": "Сохранить изменения"
+        },
+        "OrderHistoryTab": {
+            "market": "Рынок",
+            "side": "Сторона",
+            "type": "Тип",
+            "size": "Размер",
+            "price": "Цена",
+            "order_type": "Тип заказа",
+            "date_time": "Дата и время",
+            "order_history": "История заказов",
+            "aevo_order_history": "История заказов Aevo"
+        },
+        "OrdersTab": {
+            "open_orders": "Открытые заказы",
+            "cancel_all_orders": "Отменить все заказы"
+        },
+        "PortfolioFundingHistoryTab": {
+            "market": "Рынок",
+            "side": "Сторона",
+            "contracts": "Контракты",
+            "funding_rate": "Ставка финансирования",
+            "payment": "Платеж",
+            "mark_price": "Рыночная цена",
+            "date_time": "Дата и время",
+            "funding_history": "История финансирования",
+            "aevo_portfolio_funding_history": "История финансирования портфеля Aevo"
+        },
+        "PortfolioMarginPage": {
+            "current_margin_health": "Текущее состояние маржи",
+            "simulated_margin_health": "Моделированное состояние маржи",
+            "portfolio_margin": "Маржа портфеля",
+            "standard_margin": "Стандартная маржа",
+            "im_utilization": "Использование IM",
+            "mm_utilization": "Использование MM",
+            "equity": "Собственный капитал",
+            "margin_balance": "Баланс маржи",
+            "switch_to_standard": "Переключиться на стандартную маржу",
+            "switch_to_portfolio": "Переключиться на маржу портфеля",
+            "switch_to_portfolio_margin_desc_1": "Если вы продолжите, ваш аккаунт будет переключен на маржу портфеля и будут применены новые требования к маржи. Пожалуйста, убедитесь, что вы понимаете риски и способны управлять своим портфелем в этих условиях.",
+            "switch_to_portfolio_margin_desc_2": "Мы рекомендуем вам прочитать",
+            "switch_to_portfolio_margin_desc_3": "Руководство по марже портфеля Aevo",
+            "switch_to_portfolio_margin_desc_4": "для дополнительной информации.",
+            "switch_to_standard_margin_desc": "Если вы продолжите, ваш аккаунт будет переключен на стандартную маржу, и будут применены стандартные требования к маржи.",
+            "confirm": "Подтвердить",
+            "portfolio_margin_desc": "Маржа портфеля предлагает более эффективное использование капитала, предоставляя более низкие требования к маржи для трейдеров, которые поддерживают сбалансированный портфель хеджированных позиций. Это предназначено для опытных трейдеров, которые ищут повышенное плечо. Для включения маржи портфеля у вас должен быть минимальный собственный капитал в размере {{equity}}.",
+            "disable_portfolio_margin": "Отключить маржу портфеля",
+            "enable_portfolio_margin": "Включить маржу портфеля",
+            "connect_wallet": "Подключить кошелек",
+            "enable_trading": "Включить торговлю",
+            "learn_more_desc": "Узнать больше о марже портфеля на Aevo"
+        },
+        "PortfolioPage": {
+            "PortfolioPage": {
+                "overview": "Обзор",
+                "positions": "Позиции",
+                "open_orders": "Открытые заказы",
+                "order_history": "История заказов",
+                "trade_history": "История сделок",
+                "funding_history": "История финансирования",
+                "transfers_and_rewards": "Переводы и вознаграждения",
+                "enable_trading": "Включить торговлю",
+                "connect_wallet": "Подключить кошелек",
+                "deposit": "Депозит",
+                "withdraw": "Вывод средств",
+                "transfer": "Перевод",
+                "liquidations_in_progress": "Ликвидации в процессе"
+            },
+            "mobile": {
+                "MobileFundingHistoryTab": {
+                    "no_history_desc": "У вас нет истории финансирования",
+                    "long": "Лонг",
+                    "short": "Шорт",
+                    "size": "Размер",
+                    "funding_rate": "Ставка финансирования",
+                    "payment": "Платеж"
+                },
+                "MobileOrdersTab": {
+                    "no_history_desc": "У вас нет заказов",
+                    "orders": "Заказы",
+                    "cancel_all_orders": "Отменить все заказы",
+                    "bid": "Покупка",
+                    "offer": "Продажа",
+                    "price": "Цена",
+                    "size_fill": "Размер / Заполнение"
+                },
+                "MobilePortfolioPage": {
+                    "summary": "Сводка",
+                    "positions": "Позиции",
+                    "orders": "Заказы",
+                    "history": "История",
+                    "funding": "Финансирование",
+                    "transfers": "Переводы"
+                },
+                "MobilePositionsTab": {
+                    "no_history_desc": "У вас нет позиций",
+                    "positions": "Позиции",
+                    "settlement_in_progress": "Расчет в процессе",
+                    "long": "Лонг",
+                    "short": "Шорт",
+                    "size": "Размер",
+                    "pnl": "Прибыль и убыток"
+                },
+                "MobileTradeHistoryTab": {
+                    "no_history_desc": "У вас нет истории сделок",
+                    "long": "Лонг",
+                    "short": "Шорт",
+                    "price": "Цена",
+                    "size": "Размер",
+                    "type": "Тип",
+                    "trade_history": "История сделок"
+                },
+                "MobileTransfersTab": {
+                    "deposit": "Депозит",
+                    "withdraw": "Вывод средств",
+                    "send": "Отправить",
+                    "receive": "Получить",
+                    "rewards_received": "Полученные вознаграждения",
+                    "in_progress": "В процессе",
+                    "amount": "Сумма",
+                    "time": "Время",
+                    "no_history_desc": "У вас нет истории финансирования"
+                }
+            }
+        },
+        "PositionsTab": {
+            "positions": "Позиции"
+        },
+        "ReferralsTab": {
+            "ReferralsTab": {
+                "referral_link_copied": "Реферальная ссылка скопирована",
+                "referrals": "Рефералы",
+                "referrals_desc_1": "Увеличьте свои доходы и экономию с реферальной программой Aevo! Приглашайте трейдеров и зарабатывайте 10% от их комиссионных сборов. Каждый приглашенный трейдер также получает скидку 10% на комиссионные сборы на протяжении 6 месяцев.",
+                "referrals_desc_2": "Посмотреть детали реферальной программы",
+                "traders_referred": "Приглашенные трейдеры",
+                "referees_volume": "Объем сделок рефералов",
+                "unclaimed_rewards": "Невостребованные вознаграждения",
+                "total_rewards_earned": "Всего заработанных вознаграждений",
+                "claim_rewards": "Забрать вознаграждения",
+                "connect_wallet": "Подключить кошелек",
+                "enable_trading": "Включить торговлю",
+                "rewards_history": "История вознаграждений",
+                "referral_history": "История рефералов"
+            },
+            "ReferralTable": {
+                "trader": "Трейдер",
+                "date": "Дата",
+                "total_volume_traded": "Общий объем сделок",
+                "no_history_desc": "У вас нет истории рефералов",
+                "connect_wallet_desc": "Пожалуйста, подключите ваш кошелек"
+            },
+            "RewardTable": {
+                "reward_type": "Тип вознаграждения",
+                "date": "Дата",
+                "reward_earned": "Заработанное вознаграждение",
+                "referral_bonus": "Бонус за рефералов",
+                "referral_discount": "Скидка для рефералов",
+                "no_history_desc": "У вас нет истории вознаграждений",
+                "connect_wallet_desc": "Пожалуйста, подключите ваш кошелек"
+            }
+        },
+        "RewardsPage": {
+            "referrals": "Рефералы",
+            "taker_rewards": "Вознаграждения для Тейкеров"
+        },
+        "RewardsTakerTab": {
+            "rank": "Ранг",
+            "trader": "Трейдер",
+            "you": "Вы",
+            "volume_traded": "Объем Сделок",
+            "biweekly_perp_trader_rewards": "Двухнедельные Вознаграждения для Трейдеров Perp",
+            "biweekly_perp_trader_rewards_desc": "Получайте вознаграждения за вашу торговую активность в нашей программе вознаграждений на основе объема! Имейте шанс заработать до 15 000 долларов каждые две недели как активный трейдер, или присоединяйтесь к нашему сообществу в достижении рекордных объемов торговли для разблокировки общих вознаграждений.",
+            "learn_more": "Узнать Больше",
+            "community_weekly_volume_progress": "Еженедельный Прогресс Объема Сообщества",
+            "no_trades": "Нет Сделок",
+            "current_week": "Текущая Неделя"
+        },
+        "SettingsPage": {
+            "SettingsPage": {
+                "signing_keys": "Ключи для Подписи",
+                "api_keys": "API Ключи",
+                "email_notifications": "Уведомления по Электронной Почте",
+                "portfolio_margin": "Портфельная Маржа",
+                "market_maker_protection": "Защита Маркет-Мейкера",
+                "user_settings": "Настройки Пользователя"
+            },
+            "MobileSettingsPage": {
+                "signing_keys": "Ключи для Подписи",
+                "api_keys": "API Ключи",
+                "email_notifications": "Уведомления по Электронной Почте",
+                "portfolio_margin": "Портфельная Маржа",
+                "market_maker_protection": "Защита Маркет-Мейкера"
+            }
+        },
+        "SettlementHistoryTab": {
+            "asset": "Актив",
+            "expiry": "Срок Истечения",
+            "settlement_price": "Цена Расчета",
+            "date_time": "Дата и Время",
+            "all_options": "Все Опционы",
+            "aevo_settlement_history": "История Расчетов Aevo"
+        },
+        "SigningKeysPage": {
+            "signing_key": "Ключ для Подписи",
+            "enable_trading": "Включить Торговлю",
+            "connect_wallet": "Подключить Кошелек",
+            "copy_signing_key_desc": "Ключ для Подписи Скопирован в Буфер Обмена",
+            "removed_key_desc": "Удален {{key}}",
+            "error": "Ошибка",
+            "remove_signing_key": "Удалить Ключ для Подписи",
+            "remove": "Удалить",
+            "current_signing_key_desc": "После удаления {{key}}, вам нужно будет сгенерировать новый ключ для подписи, связанный с вашим кошельком, чтобы снова включить торговлю в этом браузере.",
+            "signing_key_desc": "После удаления {{key}}, вам нужно будет сгенерировать новый ключ для подписи, связанный с вашим кошельком, чтобы снова включить торговлю в браузере, в котором был сгенерирован {{key}}.",
+            "active_signing_keys": "Активные Ключи для Подписи",
+            "active_signing_keys_desc": "Ключи для подписи являются случайно сгенерированными ключами, произведенными вашим браузером и связанными с вашим кошельком, чтобы обеспечить быстрый, надежный и безопасный опыт торговли на нескольких устройствах."
+        },
+        "TradeHistoryTab": {
+            "market": "Рынок",
+            "side": "Сторона",
+            "type": "Тип",
+            "size": "Размер",
+            "price": "Цена",
+            "order_type": "Тип Заказа",
+            "trade_type": "Тип Сделки",
+            "pnl": "Прибыль и Убыток",
+            "fees": "Комиссии",
+            "date_time": "Дата и Время",
+            "trade_history": "История Сделок",
+            "aevo_trade_history": "История Сделок Aevo"
+        },
+        "TradingPage": {
+            "VolatilityWarningBanner": {
+                "warning_message": "Примечание: Этот инструмент является волатильным, пожалуйста, будьте осторожны при торговле"
+            },
+            "TradingPageTabs": {
+                "options_chain": "Цепочка Опционов",
+                "trade_history": "История Сделок"
+            }
+        },
+        "TransactionHistoryTab": {
+            "transfers_and_rewards": "Переводы и Вознаграждения"
+        }
     }
 }
