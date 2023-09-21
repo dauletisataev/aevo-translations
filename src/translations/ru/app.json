@@ -605,6 +605,133 @@
             "mm_used": "Использованная Маржа Обеспечения",
             "equity_balance": "Баланс Собственного Капитала",
             "available_balance": "Доступный Баланс"
+        },
+        "OptionsExposureSchedule": {
+            "OptionsExposureSchedule": {
+                "title": "Расписание Экспозиции Опционов"
+            },
+            "Tooltip": {
+                "delta": "Дельта"
+            }
+        },
+        "PortfolioFundingHistory": {
+            "time": "Время",
+            "market": "Рынок",
+            "side": "Сторона",
+            "long": "Лонг",
+            "short": "Шорт",
+            "contracts": "Контракты",
+            "funding_rate": "Ставка Финансирования",
+            "payment": "Платеж",
+            "mark_price": "Индикативная Цена",
+            "no_history": "Нет истории финансирования",
+            "close_short": "Закрыть Шорт",
+            "close_long": "Закрыть Лонг",
+            "open_long": "Открыть Лонг",
+            "open_short": "Открыть Шорт"
+        },
+        "PortfolioMarketFilter": {
+            "option": "Опцион",
+            "perpetual": "Перпетуальные Фьючерсы",
+            "all": "Все"
+        },
+        "PortfolioOrderHistory": {
+            "order_status": "Статус Заказа",
+            "time": "Время",
+            "order_type": "Тип Заказа",
+            "market": "Рынок",
+            "side": "Сторона",
+            "size_fill": "Размер / Заполнение",
+            "price": "Цена",
+            "bid": "Предложение",
+            "offer": "Спрос",
+            "limit": "Лимит",
+            "no_history": "Нет истории заказов",
+            "filled": "Заполнено",
+            "partial": "Частично",
+            "opened": "Открыто",
+            "cancelled": "Отменено",
+            "expired": "Истекло",
+            "rejected": "Отклонено"
+        },
+        "PortfolioOrders": {
+            "time": "Время",
+            "size_fill": "Размер / Заполнение",
+            "price_trigger": "Цена / Триггер",
+            "market": "Рынок",
+            "side": "Сторона",
+            "order_type": "Тип Заказа",
+            "iv": "IV",
+            "initial_margin": "Начальная Маржа",
+            "no_orders": "Нет заказов",
+            "buy": "Покупка",
+            "sell": "Продажа",
+            "limit": "Лимит"
+        },
+        "PortfolioPositions": {
+            "roi": "ROI",
+            "mark_price": "Индикативная Цена",
+            "avg_entry_price": "Средн. Цена Входа",
+            "maintenance_margin": "Маржа Обеспечения",
+            "pnl": "PnL",
+            "delta": "Дельта",
+            "theta": "Тета",
+            "market": "Рынок",
+            "side": "Сторона",
+            "contracts": "Контракты",
+            "summary": "Итог",
+            "no_positions": "Нет позиций",
+            "long": "Лонг",
+            "short": "Шорт"
+        },
+        "PortfolioSettlementHistory": {
+            "asset": "Актив",
+            "expiry": "Истечение",
+            "settlement_price": "Цена Расчета",
+            "settlement_time": "Время Расчета",
+            "no_history": "Нет истории расчетов"
+        },
+        "PortfolioTradeHistory": {
+            "iv": "IV",
+            "fees": "Сборы",
+            "time": "Время",
+            "order_type": "Тип Заказа",
+            "size": "Размер",
+            "market": "Рынок",
+            "side": "Сторона",
+            "type": "Тип",
+            "price": "Цена",
+            "pnl": "PnL",
+            "no_history": "Нет истории торгов",
+            "close_short": "Закрыть Шорт",
+            "close_long": "Закрыть Лонг",
+            "open_long": "Открыть Лонг",
+            "open_short": "Открыть Шорт",
+            "limit": "Лимит",
+            "trade": "Торговля",
+            "liquidation": "Ликвидация",
+            "settlement": "Расчет",
+            "funding": "Финансирование"
+        },
+        "PortfolioTransfersFilter": {
+            "all_activity": "Вся активность",
+            "deposits": "Депозиты",
+            "withdrawals": "Выводы",
+            "rewards": "Награды",
+            "transfers": "Переводы"
+        },
+        "Table": {
+            "DownloadCSVButton": {
+                "download_desc": "Скачать как CSV"
+            },
+            "EmptyContent": {
+                "connect_wallet_desc": "Пожалуйста, подключите ваш кошелек"
+            },
+            "MarketCell": {
+                "settlement_in_progress": "Идет процесс расчета",
+                "put": "Put",
+                "call": "Call"
+            }
         }
     }
 }
