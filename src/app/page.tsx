@@ -8,6 +8,7 @@ import AppEn from "../translations/en/app.json";
 import AppRu from "../translations/ru/app.json";
 import TooltipsEn from "../translations/en/tooltips.json";
 import TooltipsRu from "../translations/ru/tooltips.json";
+import LongTranslationsList from "@/components/LongTranslationsList";
 
 export default function Home() {
   return (
@@ -52,6 +53,31 @@ export default function Home() {
           ruTransaltions={AppRu}
         />
       </div>
+
+      <h2 className="text-2xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500 dark:from-blue-300 dark:to-green-300">
+        Possible long translations
+      </h2>
+
+      <LongTranslationsList
+        name="Form errors"
+        enTransaltions={FormErrorsEn}
+        ruTransaltions={FormErrorsRu}
+      />
+      <LongTranslationsList
+        name="Api errors"
+        enTransaltions={ApiErrorsEn}
+        ruTransaltions={ApiErrorsRu}
+      />
+      <LongTranslationsList
+        name="Tooltips"
+        enTransaltions={TooltipsEn}
+        ruTransaltions={TooltipsRu}
+      />
+      <LongTranslationsList
+        name="App"
+        enTransaltions={AppEn}
+        ruTransaltions={AppRu}
+      />
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left"></div>
     </main>
   );

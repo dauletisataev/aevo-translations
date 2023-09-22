@@ -123,9 +123,14 @@ const renderTranslation = (en: any, ru: any, name?: string) => {
 const TranslationsAccardion: React.FunctionComponent<
   ITranslationsAccardionProps
 > = ({ enTransaltions, ruTransaltions, name }) => (
-  <ul className="text-white shadow-2xl w-full">
-    {renderTranslation({ [name]: enTransaltions }, { [name]: ruTransaltions })}
-  </ul>
+  <>
+    <ul className="text-white shadow-2xl w-full">
+      {renderTranslation(
+        { [name]: enTransaltions },
+        { [name]: ruTransaltions }
+      )}
+    </ul>
+  </>
 );
 
 export default TranslationsAccardion;
