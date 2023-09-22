@@ -89,7 +89,7 @@ const renderTranslation = (en: any, ru: any, name?: string) => {
       } else {
         // Render direct translation values
         return (
-          <div key={index} className="border border-gray-100 p-2">
+          <div key={index} className="border border-gray-100 p-2 max-w-3xl">
             <strong>{key}:</strong>
             <div>
               EN:{" "}
@@ -98,6 +98,7 @@ const renderTranslation = (en: any, ru: any, name?: string) => {
                 showLineNumbers={false}
                 theme={a11yDark}
                 language="javascript"
+                wrapLongLines
               />
             </div>
             <div>
@@ -107,6 +108,7 @@ const renderTranslation = (en: any, ru: any, name?: string) => {
                   text={valueRu}
                   showLineNumbers={false}
                   theme={a11yDark}
+                  wrapLongLines
                 />
               ) : (
                 <span className="bg-red-500 text-white px-2 py-1 rounded">

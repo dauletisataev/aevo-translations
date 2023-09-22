@@ -47,7 +47,7 @@ const LongTranslationsList: React.FunctionComponent<
         {name}: ({longTranslations.length})
       </h2>
       {longTranslations.map((pair, index) => (
-        <div key={index} className="border border-gray-100 p-2">
+        <div key={index} className="border border-gray-100 p-2 max-w-3xl">
           <strong>{pair.key}</strong>
           <div>
             EN:{" "}
@@ -56,6 +56,7 @@ const LongTranslationsList: React.FunctionComponent<
               showLineNumbers={false}
               theme={a11yDark}
               language="javascript"
+              wrapLongLines
             />
           </div>
           <div>
@@ -64,6 +65,7 @@ const LongTranslationsList: React.FunctionComponent<
               text={pair.valueRu}
               showLineNumbers={false}
               theme={a11yDark}
+              wrapLongLines
             />
           </div>
         </div>
