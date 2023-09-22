@@ -21,7 +21,7 @@ const findLongerRuTranslations = (en: any, ru: any, parentKey: string = "") => {
       const enText = en[key] || "";
       const ruText = ru[key] || "";
 
-      if (ruText.length > 10 && ruText.length > enText.length) {
+      if (enText.length < 10 && ruText.length > enText.length) {
         results.push({
           key: combinedKey,
           valueEn: enText,
